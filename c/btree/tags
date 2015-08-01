@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+BNode	queue.h	/^}BNode;$/;"	t
+BTREE_H	btree.h	2;"	d
+OBJECTS	Makefile	/^OBJECTS= *.o$/;"	m
+QUEUE_H	queue.h	2;"	d
+__node	queue.h	/^typedef struct __node {$/;"	s
+__queue	queue.h	/^typedef struct __queue {$/;"	s
+aftSort	btree.c	/^int aftSort(BNode *root)$/;"	f
+bnode_t	queue.h	/^typedef struct bnode_t {$/;"	s
+clen	queue.h	/^	int clen;$/;"	m	struct:__queue
+createBNode	btree.c	/^BNode * createBNode(int value)$/;"	f
+createBtree	btree.c	/^ BNode* createBtree(int start,int end)$/;"	f
+create_node	queue.c	/^node_t * create_node(BNode *value)$/;"	f
+dequeue	queue.c	/^int dequeue(queue_t *q,BNode **value)$/;"	f
+destroy	btree.c	/^int destroy(BNode *root)$/;"	f
+enqueue	queue.c	/^int enqueue(queue_t * q,BNode *value)$/;"	f
+head	queue.h	/^	node_t *head;$/;"	m	struct:__queue
+lchild	queue.h	/^	struct bnode_t *lchild;$/;"	m	struct:bnode_t
+levelSort	btree.c	/^int levelSort(BNode *root)$/;"	f
+main	main.c	/^int main()$/;"	f
+midSort	btree.c	/^int midSort(BNode *root)$/;"	f
+next	queue.h	/^	struct __node *next;$/;"	m	struct:__node
+node_t	queue.h	/^}node_t;$/;"	t
+preSort	btree.c	/^int preSort(BNode *root)$/;"	f
+queue_destroy	queue.c	/^int queue_destroy(queue_t *q)$/;"	f
+queue_init	queue.c	/^queue_t * queue_init(int length)$/;"	f
+queue_t	queue.h	/^}queue_t;$/;"	t
+rchild	queue.h	/^	struct bnode_t *rchild;$/;"	m	struct:bnode_t
+tail	queue.h	/^	node_t *tail;$/;"	m	struct:__queue
+tlen	queue.h	/^	int tlen;$/;"	m	struct:__queue
+value	queue.h	/^	BNode *value;$/;"	m	struct:__node
+value	queue.h	/^	int value;$/;"	m	struct:bnode_t

@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "stm32f10x.o" "delay.o" "sys.o" "usart.o" "smg.o" "74h595.o" "smg_1.o" --strict --scatter "SMG_1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SMG_1.map" -o "SMG_1.axf"

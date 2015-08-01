@@ -1,0 +1,21 @@
+制作静态库：
+	1.完成功能函数的编写；eg:hello.c 
+	2.完成main函数的编写；eg:main.c
+	3.制作静态库
+		1).gcc -c hello.c -o hello.o 
+		2).ar crs libhello.a hello.o 
+	4.main函数编译过程中链接静态库
+		1).gcc -o hello main.c -L. -l hello 
+
+
+注：libhello.a文件可删除，此时程序中已经编译进静态库。
+
+制作动态库
+	1.完成功能函数的编写 ；eg:hello.c 
+		gcc -c hello.c -o hello.o 
+	2.制作动态库
+		gcc -shared -fPIC -o libhello.so hello.o 
+			lib 和 .so不可少
+	3.在main函数中使用动态库
+		gcc -o hello main.c -L. -l hello 
+	4.将文件 libhello.so 移到 /usr/lib

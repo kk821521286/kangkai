@@ -1,0 +1,192 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 09:55 ?        00:00:01 /sbin/init
+root         2     0  0 09:55 ?        00:00:00 [kthreadd]
+root         3     2  0 09:55 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 09:55 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 09:55 ?        00:00:01 [rcu_sched]
+root         8     2  0 09:55 ?        00:00:00 [rcu_bh]
+root         9     2  0 09:55 ?        00:00:00 [migration/0]
+root        10     2  0 09:55 ?        00:00:00 [watchdog/0]
+root        11     2  0 09:55 ?        00:00:00 [watchdog/1]
+root        12     2  0 09:55 ?        00:00:00 [migration/1]
+root        13     2  0 09:55 ?        00:00:00 [ksoftirqd/1]
+root        15     2  0 09:55 ?        00:00:00 [kworker/1:0H]
+root        16     2  0 09:55 ?        00:00:00 [khelper]
+root        17     2  0 09:55 ?        00:00:00 [kdevtmpfs]
+root        18     2  0 09:55 ?        00:00:00 [netns]
+root        19     2  0 09:55 ?        00:00:00 [writeback]
+root        20     2  0 09:55 ?        00:00:00 [kintegrityd]
+root        21     2  0 09:55 ?        00:00:00 [bioset]
+root        22     2  0 09:55 ?        00:00:00 [kworker/u17:0]
+root        23     2  0 09:55 ?        00:00:00 [kblockd]
+root        24     2  0 09:55 ?        00:00:02 [kworker/0:1]
+root        25     2  0 09:55 ?        00:00:00 [ata_sff]
+root        26     2  0 09:55 ?        00:00:00 [khubd]
+root        27     2  0 09:55 ?        00:00:00 [md]
+root        28     2  0 09:55 ?        00:00:00 [devfreq_wq]
+root        30     2  0 09:55 ?        00:00:00 [khungtaskd]
+root        31     2  0 09:55 ?        00:00:00 [kswapd0]
+root        32     2  0 09:55 ?        00:00:00 [ksmd]
+root        33     2  0 09:55 ?        00:00:00 [khugepaged]
+root        34     2  0 09:55 ?        00:00:00 [fsnotify_mark]
+root        35     2  0 09:55 ?        00:00:00 [ecryptfs-kthrea]
+root        36     2  0 09:55 ?        00:00:00 [crypto]
+root        48     2  0 09:55 ?        00:00:00 [kthrotld]
+root        52     2  0 09:55 ?        00:00:01 [kworker/1:1]
+root        71     2  0 09:55 ?        00:00:00 [deferwq]
+root        72     2  0 09:55 ?        00:00:00 [charger_manager]
+root       112     2  0 09:55 ?        00:00:00 [kworker/1:2]
+root       120     2  0 09:55 ?        00:00:00 [scsi_eh_0]
+root       121     2  0 09:55 ?        00:00:00 [kpsmoused]
+root       122     2  0 09:55 ?        00:00:00 [scsi_eh_1]
+root       123     2  0 09:55 ?        00:00:00 [scsi_eh_2]
+root       124     2  0 09:55 ?        00:00:00 [scsi_eh_3]
+root       125     2  0 09:55 ?        00:00:00 [scsi_eh_4]
+root       126     2  0 09:55 ?        00:00:00 [scsi_eh_5]
+root       127     2  0 09:55 ?        00:00:00 [kworker/u16:4]
+root       131     2  0 09:55 ?        00:00:00 [kworker/0:2]
+root       144     2  0 09:55 ?        00:00:00 [jbd2/sda9-8]
+root       145     2  0 09:55 ?        00:00:00 [ext4-rsv-conver]
+root       272     1  0 09:55 ?        00:00:00 upstart-udev-bridge --daemon
+root       278     1  0 09:55 ?        00:00:00 /lib/systemd/systemd-udevd --daemon
+root       334     2  0 09:55 ?        00:00:00 [irq/42-mei_me]
+root       347     2  0 09:55 ?        00:00:00 [kworker/u17:1]
+root       370     2  0 09:55 ?        00:00:00 [cfg80211]
+root       439     1  0 09:55 ?        00:00:00 upstart-socket-bridge --daemon
+root       490     2  0 09:55 ?        00:00:00 [hd-audio0]
+message+   512     1  0 09:55 ?        00:00:00 dbus-daemon --system --fork
+root       644     2  0 09:55 ?        00:00:00 [scsi_eh_6]
+root       648     2  0 09:55 ?        00:00:00 [rts5139-control]
+root       649     2  0 09:55 ?        00:00:02 [rts5139-polling]
+syslog     691     1  0 09:55 ?        00:00:00 rsyslogd
+root       706     1  0 09:55 ?        00:00:00 /lib/systemd/systemd-logind
+root       757     1  0 09:55 ?        00:00:00 /usr/sbin/bluetoothd
+root       773     2  0 09:55 ?        00:00:00 [krfcommd]
+root       784     1  0 09:55 ?        00:00:00 upstart-file-bridge --daemon
+avahi      787     1  0 09:55 ?        00:00:00 avahi-daemon: running [kylin.local]
+avahi      788   787  0 09:55 ?        00:00:00 avahi-daemon: chroot helper
+root       801     2  0 09:55 ?        00:00:00 [ttm_swap]
+root       912     1  0 09:55 ?        00:00:00 /usr/sbin/ModemManager
+root       943     1  0 09:55 ?        00:00:00 NetworkManager
+root       957     1  0 09:55 ?        00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       971     1  0 09:55 ?        00:00:00 /sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant
+root      1084     1  0 09:55 tty4     00:00:00 /sbin/getty -8 38400 tty4
+root      1090     1  0 09:55 tty5     00:00:00 /sbin/getty -8 38400 tty5
+root      1104     1  0 09:55 tty2     00:00:00 /sbin/getty -8 38400 tty2
+root      1106     1  0 09:55 tty3     00:00:00 /sbin/getty -8 38400 tty3
+root      1113     1  0 09:55 tty6     00:00:00 /sbin/getty -8 38400 tty6
+root      1185     1  0 09:55 ?        00:00:00 cron
+kernoops  1187     1  0 09:55 ?        00:00:00 /usr/sbin/kerneloops
+root      1206     1  0 09:55 ?        00:00:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1214     1  0 09:55 ?        00:00:00 lightdm
+root      1226     1  0 09:55 ?        00:00:00 /usr/sbin/irqbalance
+root      1236     1  0 09:55 ?        00:00:00 /usr/sbin/inetd
+root      1245     1  0 09:55 ?        00:00:00 /usr/sbin/cups-browsed
+mysql     1268     1  0 09:55 ?        00:00:01 /usr/sbin/mysqld
+root      1293  1214  2 09:55 tty7     00:00:42 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      1306     1  0 09:55 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+whoopsie  1307     1  0 09:55 ?        00:00:00 whoopsie
+root      1327   943  0 09:55 ?        00:00:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-wlan0.pid -lf /var/lib/NetworkManager/dhclient-bd89ddd9-c74a-42d9-a6ca-daba767324ce-wlan0.lease -cf /var/lib/NetworkManager/dhclient-wlan0.conf wlan0
+root      1376     2  0 09:55 ?        00:00:00 [iprt]
+root      1464     2  0 09:55 ?        00:00:00 [kauditd]
+root      1492     1  0 09:55 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  1494  1492  0 09:55 ?        00:00:00 /usr/sbin/apache2 -k start
+www-data  1496  1492  0 09:55 ?        00:00:00 /usr/sbin/apache2 -k start
+nobody    1623   943  0 09:55 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root      1627     1  0 09:55 tty1     00:00:00 /sbin/getty -8 38400 tty1
+root      1891  1214  0 09:55 ?        00:00:00 lightdm --session-child 12 19
+root      1943     1  0 09:55 ?        00:00:00 /usr/lib/upower/upowerd
+rtkit     1978     1  0 09:55 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+kangkai   2213     1  0 09:55 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+kangkai   2215  1891  0 09:55 ?        00:00:00 init --user
+kangkai   2274  2215  0 09:55 ?        00:00:00 ssh-agent -s
+kangkai   2279  2215  0 09:55 ?        00:00:01 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-fl8lhjmqA5
+kangkai   2288  2215  0 09:55 ?        00:00:00 upstart-event-bridge
+kangkai   2291  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/hud/window-stack-bridge
+kangkai   2306  2215  0 09:55 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+kangkai   2310  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/hud/hud-service
+kangkai   2313  2215  0 09:55 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+kangkai   2316  2215  0 09:55 ?        00:00:01 /usr/bin/fcitx
+kangkai   2317  2215  0 09:55 ?        00:00:00 gnome-session --session=ubuntu
+kangkai   2324  2313  0 09:55 ?        00:00:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+kangkai   2330  2215  0 09:55 ?        00:00:00 //bin/dbus-daemon --fork --print-pid 7 --print-address 9 --config-file /usr/share/fcitx/dbus/daemon.conf
+kangkai   2333  2215  0 09:55 ?        00:00:01 /usr/lib/unity/unity-panel-service
+kangkai   2335  2215  0 09:55 ?        00:00:00 /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-r6Jc9ULo2D,guid=93bb9d3741569b0ca6ca6a1a55a1c92a 2330
+kangkai   2339  2215  0 09:55 ?        00:00:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+kangkai   2341  2215  0 09:55 ?        00:00:00 upstart-file-bridge --daemon --user
+kangkai   2343  2215  0 09:55 ?        00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+kangkai   2347  2215  0 09:55 ?        00:00:00 /usr/lib/gvfs/gvfsd
+kangkai   2351  2215  0 09:55 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+kangkai   2367  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/bamf/bamfdaemon
+kangkai   2369  2215  0 09:55 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+colord    2390     1  0 09:55 ?        00:00:00 /usr/lib/colord/colord
+kangkai   2392  2215  0 09:55 ?        00:00:00 /usr/lib/dconf/dconf-service
+kangkai   2395  2306  0 09:55 ?        00:00:00 syndaemon -i 1.0 -t -K -R
+kangkai   2399  2215  3 09:55 ?        00:00:48 /usr/bin/pulseaudio --start --log-target=syslog
+kangkai   2405  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-keyboard-service --use-gtk
+kangkai   2430  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-messages/indicator-messages-service
+kangkai   2436  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+kangkai   2438  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-power/indicator-power-service
+kangkai   2444  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-datetime/indicator-datetime-service
+kangkai   2445  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-sound/indicator-sound-service
+kangkai   2448  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-printers/indicator-printers-service
+kangkai   2453  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-session/indicator-session-service
+kangkai   2468  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/indicator-application/indicator-application-service
+kangkai   2489  2215  0 09:55 ?        00:00:00 /usr/lib/evolution/evolution-source-registry
+kangkai   2502  2317  3 09:55 ?        00:00:42 compiz
+kangkai   2520  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/notify-osd
+kangkai   2562  2317  0 09:55 ?        00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+kangkai   2568  2317  0 09:55 ?        00:00:00 nautilus -n
+kangkai   2569  2317  0 09:55 ?        00:00:00 /bin/bash /usr/bin/indicator-china-weather
+kangkai   2573  2317  0 09:55 ?        00:00:00 nm-applet
+kangkai   2575  2569  0 09:55 ?        00:00:00 python /usr/share/indicator-china-weather/src/indicator-china-weather.py
+kangkai   2578  2317  0 09:55 ?        00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+kangkai   2589  2215  0 09:55 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      2592     1  0 09:55 ?        00:00:00 /usr/lib/udisks2/udisksd --no-debug
+kangkai   2603  2215  0 09:55 ?        00:00:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+kangkai   2608  2215  0 09:55 ?        00:00:00 /usr/lib/evolution/evolution-calendar-factory
+kangkai   2615  2215  0 09:55 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+kangkai   2620  2215  0 09:55 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+kangkai   2624  2215  0 09:55 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+kangkai   2640  2215  0 09:55 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+kangkai   2666  2215  0 09:55 ?        00:00:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+kangkai   2671  2215  0 09:55 ?        00:00:01 fcitx-qimpanel
+root      2702     1  0 09:56 ?        00:00:00 /usr/sbin/cupsd -f
+lp        2705  2702  0 09:56 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus:// 
+kangkai   2722  2215  7 09:56 ?        00:01:47 /opt/google/chrome/chrome     
+kangkai   2730  2722  0 09:56 ?        00:00:00 cat
+kangkai   2731  2722  0 09:56 ?        00:00:00 cat
+kangkai   2733  2722  0 09:56 ?        00:00:00 /opt/google/chrome/chrome-sandbox /opt/google/chrome/chrome --type=zygote
+kangkai   2734  2733  0 09:56 ?        00:00:00 /opt/google/chrome/chrome --type=zygote
+kangkai   2740  2734  0 09:56 ?        00:00:00 /opt/google/chrome/chrome-sandbox /opt/google/chrome/nacl_helper
+kangkai   2741  2740  0 09:56 ?        00:00:00 /opt/google/chrome/nacl_helper
+kangkai   2743  2734  0 09:56 ?        00:00:00 /opt/google/chrome/chrome --type=zygote
+kangkai   2764  2722  3 09:56 ?        00:00:50 /opt/google/chrome/chrome --type=gpu-process --channel=2722.0.1837866170 --supports-dual-gpus=false --gpu-driver-bug-workarounds=1,24,36,39 --disable-accelerated-video-decode --gpu-vendor-id=0x1002 --gpu-device-id=0x68e4 --gpu-driver-vendor --gpu-driver-version
+kangkai   2770  2764  0 09:56 ?        00:00:00 /opt/google/chrome/chrome --type=gpu-broker                                                                                                                                                                                                               
+kangkai   2843  2317  0 09:56 ?        00:00:00 telepathy-indicator
+kangkai   2850  2215  0 09:56 ?        00:00:00 /usr/lib/telepathy/mission-control-5
+root      2882     2  0 09:56 ?        00:00:00 [scsi_eh_7]
+root      2883     2  0 09:56 ?        00:00:00 [usb-storage]
+kangkai   2885  2317  0 09:56 ?        00:00:00 zeitgeist-datahub
+kangkai   2890  2215  0 09:56 ?        00:00:00 /usr/bin/zeitgeist-daemon
+kangkai   2896  2215  0 09:56 ?        00:00:00 /usr/lib/i386-linux-gnu/zeitgeist-fts
+kangkai   2909  2896  0 09:56 ?        00:00:00 /bin/cat
+kangkai   2921  2743 24 09:56 ?        00:05:42 /opt/google/chrome/chrome --type=renderer --enable-deferred-image-decoding --lang=zh-CN --force-fieldtrials=ChromeSuggestions/Default/DomRel-Enable/enable/EnableSessionCrashedBubbleUI/Disabled/ExtensionContentVerification/Enforce/ExtensionInstallVerification/None/MaterialDesignNTP/Enabled/NewProfileManagement/NewAvatarMenu/PasswordGeneration/Disabled/RememberCertificateErrorDecisions/Default/SafeBrowsingIncidentReportingService/Default/SettingsEnforcement/no_enforcement/UMA-Dynamic-Binary-Uniformity-Trial/default/UMA-Population-Restrict/normal/UMA-Uniformity-Trial-1-Percent/group_42/UMA-Uniformity-Trial-10-Percent/group_05/UMA-Uniformity-Trial-100-Percent/group_01/UMA-Uniformity-Trial-20-Percent/group_03/UMA-Uniformity-Trial-5-Percent/group_03/UMA-Uniformity-Trial-50-Percent/group_01/VoiceTrigger/Install/WebRTC-IPv6Default/Disabled/ --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --enable-delegated-renderer --enable-impl-side-painting --num-raster-threads=1 --disable-accelerated-video-decode --channel=2722.2.901160942
+kangkai   2957  2743  7 09:56 ?        00:01:41 /opt/google/chrome/chrome --type=ppapi --channel=2722.4.2047130525 --ppapi-flash-args --lang=zh-CN
+kangkai   2994  2317  0 09:56 ?        00:00:00 update-notifier
+kangkai   3043  2317  0 09:57 ?        00:00:00 /usr/lib/i386-linux-gnu/deja-dup/deja-dup-monitor
+kangkai   3255  2215  0 10:05 ?        00:00:02 /usr/lib/i386-linux-gnu/unity-scope-home/unity-scope-home
+kangkai   3270  2215  0 10:05 ?        00:00:01 /usr/bin/unity-scope-loader applications/applications.scope applications/scopes.scope commands.scope
+kangkai   3272  2215  0 10:05 ?        00:00:00 /usr/lib/i386-linux-gnu/unity-lens-files/unity-files-daemon
+kangkai   3298  2215  0 10:05 ?        00:00:00 /usr/lib/unity-musicbaidu-daemon
+kangkai   3303  2215  0 10:05 ?        00:00:01 /usr/lib/gvfs/gvfsd-http --spawner :1.6 /org/gtk/gvfs/exec_spaw/2
+root      3337     2  0 10:05 ?        00:00:00 [kworker/u16:1]
+root      3572     1  0 10:07 ?        00:00:00 python3 /usr/lib/software-properties/software-properties-dbus
+kangkai   3585  2215  0 10:07 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+root      4129     2  0 10:10 ?        00:00:00 [kworker/u16:0]
+kangkai   4142  2215  0 10:11 ?        00:00:02 gnome-terminal
+kangkai   4149  4142  0 10:11 ?        00:00:00 gnome-pty-helper
+kangkai   4150  4142  0 10:11 pts/0    00:00:00 bash
+kangkai   4265  2215  0 10:11 ?        00:00:01 /usr/bin/python3 /usr/share/oneconf/oneconf-service
+root      4431     2  0 10:18 ?        00:00:00 [kworker/u16:2]
+kangkai   4485  4150  0 10:19 pts/0    00:00:00 ps -ef

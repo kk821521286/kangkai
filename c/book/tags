@@ -1,0 +1,92 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+ADD_MSG	book.h	25;"	d
+AddHisNode	book.c	/^BOOL AddHisNode(BOOK_INFO *pstBookInfo, BOOK_OP_EM emOption)$/;"	f
+BEGIN_MSG_SET	book.h	24;"	d
+BOOK_HIS_INFO	book.h	/^}BOOK_HIS_INFO;$/;"	t
+BOOK_HIS_NODE	book.h	/^}BOOK_HIS_NODE;$/;"	t
+BOOK_IN	book.h	/^	BOOK_IN,$/;"	e	enum:emBookState
+BOOK_INFO	book.h	/^} BOOK_INFO;$/;"	t
+BOOK_OP_EM	book.h	/^}BOOK_OP_EM;$/;"	t
+BOOK_OP_IN	book.h	/^	BOOK_OP_IN,$/;"	e	enum:emBookOption
+BOOK_OP_OUT	book.h	/^	BOOK_OP_OUT$/;"	e	enum:emBookOption
+BOOK_OUT	book.h	/^	BOOK_OUT$/;"	e	enum:emBookState
+BOOK_STATE_EM	book.h	/^}BOOK_STATE_EM;$/;"	t
+BOOL	book.h	/^}BOOL;$/;"	t
+BookNumber	book.h	/^typedef unsigned int BookNumber;$/;"	t
+DEFAULT_BOOK_ID	book.h	20;"	d
+END_ID_OF_MSG_SET	book.h	23;"	d
+END_MSG_SET	book.h	26;"	d
+FALSE	book.h	/^	FALSE$/;"	e	enum:emBoolVal
+FreeHisList	book.c	/^void FreeHisList(BOOK_HIS_NODE *pstHead)$/;"	f
+GetBookHisCount	book.c	/^int GetBookHisCount(BookNumber nBookBumber)$/;"	f
+GetBookInfoByID	book.c	/^BOOK_INFO* GetBookInfoByID(BookNumber nBookNumbe)$/;"	f
+GetHisNodeByBookID	book.c	/^BOOK_HIS_INFO *GetHisNodeByBookID(BookNumber nBookNumber,int *nCount)$/;"	f
+GetLocalTime	book.c	/^BOOL GetLocalTime()$/;"	f
+GetSysTime	book.c	/^SYS_TIME GetSysTime()$/;"	f
+GetUserCommand	book.c	/^BOOL GetUserCommand()$/;"	f
+IsBookNumRight	book.c	/^BOOL IsBookNumRight(BookNumber nBookNumber)$/;"	f
+MAX_BOOK_COUNT	book.h	17;"	d
+MAX_BOOK_NAME_LEN	book.h	16;"	d
+MAX_BOOK_NUMBER	book.h	19;"	d
+MAX_CMD_TMP_LEN	book.h	15;"	d
+MAX_MSG_LEN	book.h	14;"	d
+MIN_BOOK_NUMBER	book.h	18;"	d
+MSG_BOOK_BAD_ID	book.h	/^	MSG_BOOK_BAD_ID      = 11,  \/* 图书编号错误 *\/$/;"	e	enum:emMsgID
+MSG_BOOK_BRW_SCS	book.h	/^	MSG_BOOK_BRW_SCS     = 14,  \/* 图书外借成功 *\/$/;"	e	enum:emMsgID
+MSG_BOOK_HIS_SCS	book.h	/^	MSG_BOOK_HIS_SCS     = 18   \/* 历史查询成功 *\/$/;"	e	enum:emMsgID
+MSG_BOOK_NOT_HAS	book.h	/^	MSG_BOOK_NOT_HAS     = 16,  \/* 无该书信息   *\/$/;"	e	enum:emMsgID
+MSG_BOOK_NOT_IN	book.h	/^	MSG_BOOK_NOT_IN      = 12,  \/* 图书已经外借 *\/$/;"	e	enum:emMsgID
+MSG_BOOK_NOT_OUT	book.h	/^	MSG_BOOK_NOT_OUT     = 13,  \/* 图书没有外借 *\/$/;"	e	enum:emMsgID
+MSG_BOOK_QRY_SCS	book.h	/^	MSG_BOOK_QRY_SCS     = 17,  \/* 图书查询成功 *\/$/;"	e	enum:emMsgID
+MSG_BOOK_RTN_SCS	book.h	/^	MSG_BOOK_RTN_SCS     = 15,  \/* 图书归还成功 *\/$/;"	e	enum:emMsgID
+MSG_ID_EM	book.h	/^}MSG_ID_EM;$/;"	t
+MSG_INFO	book.h	/^}MSG_INFO;$/;"	t
+MSG_SYS_BAD_CMD	book.h	/^	MSG_SYS_BAD_CMD      = 2 ,  \/* 命令错误     *\/$/;"	e	enum:emMsgID
+MSG_SYS_INIT_SUCCESS	book.h	/^	MSG_SYS_INIT_SUCCESS = 1 ,  \/* 初始化成功   *\/$/;"	e	enum:emMsgID
+MSG_SYS_INNER_ERROR	book.h	/^	MSG_SYS_INNER_ERROR  = 0 ,  \/* 内部错误     *\/$/;"	e	enum:emMsgID
+SYS_TIME	book.h	/^}SYS_TIME;$/;"	t
+TRUE	book.h	/^	TRUE,$/;"	e	enum:emBoolVal
+UINT8	book.h	/^typedef unsigned char UINT8;$/;"	t
+__BOOK_H_	book.h	2;"	d
+apiPrintBookHistoryInfo	book.c	/^void apiPrintBookHistoryInfo(BOOK_HIS_INFO *pstBookHistroyList, int iCount)$/;"	f
+apiPrintBookInfo	book.c	/^void apiPrintBookInfo(BOOK_INFO* pstBookInfo, int iCount)$/;"	f
+apiPrintMsg	book.c	/^void apiPrintMsg(MSG_ID_EM emMsgID)$/;"	f
+cmdBooksBorrow	book.c	/^void cmdBooksBorrow(BookNumber nBookNumber)$/;"	f
+cmdBooksHistory	book.c	/^void cmdBooksHistory(BookNumber nBookNumber)$/;"	f
+cmdBooksInit	book.c	/^void cmdBooksInit()$/;"	f
+cmdBooksQuery	book.c	/^void cmdBooksQuery(BookNumber nBookNumber)$/;"	f
+cmdBooksReturn	book.c	/^void cmdBooksReturn(BookNumber nBookNumber)$/;"	f
+emBookOption	book.h	/^	BOOK_OP_EM   emBookOption;$/;"	m	struct:tagBookHistInfo
+emBookOption	book.h	/^typedef enum emBookOption$/;"	g
+emBookState	book.h	/^typedef enum emBookState$/;"	g
+emBoolVal	book.h	/^typedef enum emBoolVal$/;"	g
+emID	book.h	/^	MSG_ID_EM emID;$/;"	m	struct:tagMsgInfo
+emMsgID	book.h	/^typedef enum emMsgID$/;"	g
+emState	book.h	/^	BOOK_STATE_EM emState;$/;"	m	struct:tagBookInfo
+g_pstHisLogHead	book.h	/^BOOK_HIS_NODE *g_pstHisLogHead = NULL;  \/\/历史记录链表头指针 （包含数据）$/;"	v
+g_szBookOptionString	book.c	/^char *g_szBookOptionString[2] = {"借出","归还"};          \/\/ 图书操作的字符串$/;"	v
+g_szBookStateString	book.c	/^char *g_szBookStateString[3]  = {"库存","外借","其他"};   \/\/ 图书状态的字符串$/;"	v
+g_szBooks	book.h	/^BOOK_INFO g_szBooks[MAX_BOOK_COUNT];  \/\/图书信息数组 $/;"	v
+g_szTimeStamp	book.c	/^char g_szTimeStamp[10];                                   \/\/ 系统打印时间的用的字符串$/;"	v
+main	book.c	/^int main(void)$/;"	f
+nHour	book.h	/^	UINT8 nHour;$/;"	m	struct:tagSysTime
+nMin	book.h	/^	UINT8 nMin;$/;"	m	struct:tagSysTime
+nNum	book.h	/^	BookNumber nNum;$/;"	m	struct:tagBookInfo
+nSec	book.h	/^	UINT8 nSec;$/;"	m	struct:tagSysTime
+objects	Makefile	/^objects = book.o $/;"	m
+pstBookInfo	book.h	/^	BOOK_INFO   *pstBookInfo ;$/;"	m	struct:tagBookHistInfo
+pstNext	book.h	/^	struct tagBookHisNode *pstNext;$/;"	m	struct:tagBookHisNode
+stBookHisInfo	book.h	/^	BOOK_HIS_INFO stBookHisInfo;$/;"	m	struct:tagBookHisNode
+stOptionTime	book.h	/^	SYS_TIME     stOptionTime;$/;"	m	struct:tagBookHistInfo
+szMessage	book.h	/^	char szMessage[MAX_MSG_LEN];$/;"	m	struct:tagMsgInfo
+szName	book.h	/^	char szName[MAX_BOOK_NAME_LEN + 1];$/;"	m	struct:tagBookInfo
+tagBookHisNode	book.h	/^typedef struct tagBookHisNode$/;"	s
+tagBookHistInfo	book.h	/^typedef struct tagBookHistInfo$/;"	s
+tagBookInfo	book.h	/^typedef struct tagBookInfo$/;"	s
+tagMsgInfo	book.h	/^typedef struct tagMsgInfo$/;"	s
+tagSysTime	book.h	/^typedef struct tagSysTime$/;"	s

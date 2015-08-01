@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+EZW	ezw.c	/^int EZW(void)$/;"	f
+EZW_code	ezw.c	/^void EZW_code(matrix_2d *m, element_type threshold)$/;"	f
+EZW_decode	unezw.c	/^void EZW_decode(matrix_2d *m)$/;"	f
+IZ	ezw.h	31;"	d
+M	ezw.c	/^matrix_2d *M;$/;"	v
+M	unezw.c	/^matrix_2d *M;					\/\/定义工作矩阵$/;"	v
+NEG	ezw.h	30;"	d
+ONE	ezw.h	27;"	d
+POS	ezw.h	29;"	d
+ZERO	ezw.h	26;"	d
+ZTR	ezw.h	28;"	d
+__EZW_H__	ezw.h	3;"	d
+__FIFO_H__	fifo.h	5;"	d
+__LIST_H__	list.h	4;"	d
+__MATRIX_2D_H__	matrix2d.h	5;"	d
+__ezw_element	fifo.h	/^typedef struct __ezw_element {$/;"	s
+__ezw_file_header	ezw.h	/^typedef struct __ezw_file_header$/;"	s
+__fifo_element	fifo.c	/^typedef struct __fifo_element {$/;"	s	file:
+__matrix_2d	matrix2d.h	/^typedef struct __matrix_2d {$/;"	s
+append_to_list	list.c	/^void append_to_list(list_type d)$/;"	f
+code	ezw.c	/^int code(matrix_2d *m, int x, int y, element_type threshold)$/;"	f
+code	fifo.h	/^  int code;$/;"	m	struct:__ezw_element
+col	matrix2d.h	/^  int col;$/;"	m	struct:__matrix_2d
+data	fifo.c	/^  ezw_element data;$/;"	m	struct:__fifo_element	file:
+data	list.c	/^  list_type data;$/;"	m	file:
+debug	ezw.c	68;"	d	file:
+debug	unezw.c	440;"	d	file:
+debug	unezw.c	69;"	d	file:
+destroy_fifo	fifo.c	/^void destroy_fifo(void)$/;"	f
+destroy_list	list.c	/^void destroy_list(void)$/;"	f
+display_list	list.c	/^void display_list(void)$/;"	f
+dominant_pass	ezw.c	/^void dominant_pass(matrix_2d *m, element_type threshold)$/;"	f
+dominant_pass	unezw.c	/^void dominant_pass(matrix_2d *m, element_type threshold)$/;"	f
+element_type	matrix2d.h	/^typedef int element_type;$/;"	t
+error	ezw.c	/^char error;$/;"	v
+error	unezw.c	/^char error;						\/\/定义误差$/;"	v
+error	unezw.c	/^char error;$/;"	v
+example	ezw.h	/^const int example[8][8] = {$/;"	v
+ezw_element	fifo.h	/^} ezw_element;$/;"	t
+ezw_file	ezw.c	/^FILE *ezw_file;$/;"	v
+ezw_file	unezw.c	/^FILE *ezw_file;					\/\/已编码文件$/;"	v
+ezw_file	unezw.c	/^FILE *ezw_file;$/;"	v
+ezw_file_header	ezw.h	/^} ezw_file_header;$/;"	t
+fifo_element	fifo.c	/^} fifo_element;$/;"	t	file:
+fifo_empty	fifo.c	/^char fifo_empty = 1;$/;"	v
+fifo_first	fifo.c	/^fifo_element *fifo_first = NULL;$/;"	v
+fifo_last	fifo.c	/^fifo_element *fifo_last = NULL;$/;"	v
+get_bit	unezw.c	/^char get_bit(void)$/;"	f
+get_from_fifo	fifo.c	/^ezw_element get_from_fifo(void)$/;"	f
+get_list_element	list.c	/^list_type get_list_element(int pos, char *found)$/;"	f
+get_next_list_element	list.c	/^list_type get_next_list_element(char *found)$/;"	f
+header	ezw.c	/^ezw_file_header header;$/;"	v
+header	unezw.c	/^ezw_file_header header;			\/\/文件头$/;"	v
+header	unezw.c	/^ezw_file_header header;$/;"	v
+height	ezw.h	/^	int height;$/;"	m	struct:__ezw_file_header
+iEZW	unezw.c	/^int iEZW(void)$/;"	f
+initialize_fifo	fifo.c	/^void initialize_fifo(void)$/;"	f
+initialize_list	list.c	/^void initialize_list(void)$/;"	f
+input_byte	unezw.c	/^unsigned char input_byte, mask;$/;"	v
+input_code	unezw.c	/^int input_code(int count)$/;"	f
+input_element	unezw.c	/^void input_element(matrix_2d *m, element_type t, ezw_element *s)$/;"	f
+list_current	list.c	/^list_element *list_current = NULL;$/;"	v
+list_element	list.c	/^} list_element;$/;"	t	file:
+list_end	list.c	/^list_element *list_end = NULL;$/;"	v
+list_length	list.c	/^int list_length=0;$/;"	v
+list_root	list.c	/^list_element *list_root = NULL;$/;"	v
+list_type	list.h	/^} list_type;$/;"	t
+load_data	ezw.c	/^void load_data(matrix_2d *m)$/;"	f
+m	matrix2d.h	/^  element_type **m;$/;"	m	struct:__matrix_2d
+main	unezw.c	/^int main(void)$/;"	f
+mask	ezw.c	/^unsigned char output_byte, mask;$/;"	v
+mask	unezw.c	/^unsigned char input_byte, mask;$/;"	v
+matrix_2d	matrix2d.h	/^} matrix_2d;$/;"	t
+matrix_2d_abs_max	matrix2d.c	/^element_type matrix_2d_abs_max(matrix_2d *m)$/;"	f
+matrix_2d_clear	matrix2d.c	/^void matrix_2d_clear(matrix_2d *m)$/;"	f
+matrix_2d_create	matrix2d.c	/^matrix_2d *matrix_2d_create(int r, int c)$/;"	f
+matrix_2d_destroy	matrix2d.c	/^void matrix_2d_destroy(matrix_2d *m)$/;"	f
+matrix_2d_write	matrix2d.c	/^void matrix_2d_write(matrix_2d *m)$/;"	f
+max_descendant	ezw.c	/^element_type max_descendant(matrix_2d *m, int x, int y)$/;"	f
+max_element_type	matrix2d.h	9;"	d
+min_element_type	matrix2d.h	8;"	d
+next	list.c	/^  struct __list_element *next;$/;"	m	file:
+ones	ezw.c	/^int zeroes, ones;$/;"	v
+ones	unezw.c	/^long int zeroes, ones;$/;"	v
+output_byte	ezw.c	/^unsigned char output_byte, mask;$/;"	v
+output_code	ezw.c	/^void output_code(int code)$/;"	f
+pixels	unezw.c	/^long int pixels;$/;"	v
+previous	fifo.c	/^  struct __fifo_element *previous;$/;"	m	struct:__fifo_element	file:
+process_element	ezw.c	/^void process_element(matrix_2d *m, element_type threshold, ezw_element *s)$/;"	f
+put_bit	ezw.c	/^void put_bit(char bit)$/;"	f
+put_in_fifo	fifo.c	/^void put_in_fifo(ezw_element d)$/;"	f
+put_list_element	list.c	/^void put_list_element(list_type d, int pos, char *found)$/;"	f
+reset_list	list.c	/^void reset_list(void)$/;"	f
+row	matrix2d.h	/^  int row;$/;"	m	struct:__matrix_2d
+scan	unezw.c	/^Raster scan:$/;"	v
+show_code	unezw.c	/^void show_code(int code)$/;"	f
+subordinate_pass	ezw.c	/^void subordinate_pass(element_type threshold)$/;"	f
+subordinate_pass	unezw.c	/^void subordinate_pass(matrix_2d *m, element_type threshold)$/;"	f
+threshold	ezw.h	/^	element_type threshold;$/;"	m	struct:__ezw_file_header
+to_sub_list	ezw.c	/^void to_sub_list(element_type value)$/;"	f
+width	ezw.h	/^	int width;$/;"	m	struct:__ezw_file_header
+write_list_info	list.c	/^void write_list_info(void)$/;"	f
+x	fifo.h	/^  int x;$/;"	m	struct:__ezw_element
+x	list.h	/^  int x;$/;"	m
+y	fifo.h	/^  int y;$/;"	m	struct:__ezw_element
+y	list.h	/^  int y;$/;"	m
+zeroes	ezw.c	/^int zeroes, ones;$/;"	v
+zeroes	unezw.c	/^long int zeroes, ones;$/;"	v
+zerotree	ezw.c	/^char zerotree(matrix_2d *m, int x, int y, int threshold)$/;"	f

@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\ÊýÂë¹Ü -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\74H595 -I "D:\MDK\ARM\INC" -I "D:\MDK\ARM\INC\ST\STM32F10x" -o "usart.o" --omf_browse "usart.crf" --depend "usart.d" "..\SYSTEM\usart\usart.c"

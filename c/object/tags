@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+ANIMAL_STRU	object.c	/^}ANIMAL_STRU;$/;"	t	file:
+ANM_ToString	object.c	/^char* ANM_ToString(void *pObj, char *pcStrBuf)$/;"	f
+CID_ANM	object.c	12;"	d	file:
+CID_OBJ	object.c	11;"	d	file:
+CID_PLT	object.c	13;"	d	file:
+ClassID	object.c	/^typedef unsigned int ClassID;$/;"	t	file:
+NAME_LEN	object.c	9;"	d	file:
+OBJECT_STRU	object.c	/^typedef struct stObj OBJECT_STRU;$/;"	t	file:
+OBJ_ToString	object.c	/^char* OBJ_ToString(void *pObj, char *pcStrBuf)$/;"	f
+PLANT_STRU	object.c	/^}PLANT_STRU;$/;"	t	file:
+PLT_ToString	object.c	/^char* PLT_ToString(void *pObjSelf, char *pcStrBuf)$/;"	f
+ToString_PF	object.c	/^typedef char* (*ToString_PF)(void *pObj, char *pcStrBuf);$/;"	t	file:
+acName	object.c	/^    char acName[NAME_LEN];  $/;"	m	struct:stAnimal	file:
+acName	object.c	/^    char acName[NAME_LEN];$/;"	m	struct:stPlant	file:
+m_stBaseObj	object.c	/^    OBJECT_STRU m_stBaseObj; $/;"	m	struct:stAnimal	file:
+m_stBaseObj	object.c	/^    OBJECT_STRU m_stBaseObj;$/;"	m	struct:stPlant	file:
+m_uiCID	object.c	/^    ClassID m_uiCID;$/;"	m	struct:stObj	file:
+main	object.c	/^int main()$/;"	f
+new_Animal	object.c	/^ANIMAL_STRU *new_Animal()$/;"	f
+new_Object	object.c	/^OBJECT_STRU *new_Object()$/;"	f
+new_Plant	object.c	/^PLANT_STRU *new_Plant()$/;"	f
+objects	Makefile	/^objects = object.o $/;"	m
+pfToString	object.c	/^    ToString_PF pfToString;$/;"	m	struct:stObj	file:
+stAnimal	object.c	/^typedef struct stAnimal$/;"	s	file:
+stObj	object.c	/^struct stObj$/;"	s	file:
+stPlant	object.c	/^typedef struct stPlant$/;"	s	file:
