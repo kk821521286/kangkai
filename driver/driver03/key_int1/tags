@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+CMD_BEEP_FRE	test.c	23;"	d	file:
+CMD_BEEP_OFF	test.c	22;"	d	file:
+CMD_BEEP_ON	test.c	21;"	d	file:
+GPH0	key_int1.c	26;"	d	file:
+GPH0CON	key_int1.c	/^	unsigned int GPH0CON;$/;"	m	file:
+GPH0DAT	key_int1.c	/^	unsigned int GPH0DAT;$/;"	m	file:
+GPH0DRV	key_int1.c	/^	unsigned int GPH0DRV;$/;"	m	file:
+GPH0PULL	key_int1.c	/^	unsigned int GPH0PULL;$/;"	m	file:
+KERDIR	Makefile	/^KERDIR=\/home\/linux\/linux-2.6.35-farsight\/$/;"	m
+M	Makefile	/^	$(MAKE) -C $(KERDIR) M=$(PWD) modules$/;"	m
+PEND	key_int1.c	/^unsigned int *PEND ;$/;"	v
+PWD	Makefile	/^PWD=$(shell pwd) $/;"	m
+WKUP_INT0_7_MASK	key_int1.c	/^unsigned int *WKUP_INT0_7_MASK ;$/;"	v
+gph0	key_int1.c	/^}gph0;$/;"	t	file:
+gph0base	key_int1.c	/^void *gph0base ;$/;"	v
+key1_int_handler	key_int1.c	/^irqreturn_t key1_int_handler (int num, void* devid) $/;"	f
+keyint1_cdev	key_int1.c	/^static struct cdev keyint1_cdev ;$/;"	v	file:
+keyint1_driver_exit	key_int1.c	/^__exit static void keyint1_driver_exit (void) $/;"	f	file:
+keyint1_driver_exit	key_int1.c	/^module_exit (keyint1_driver_exit) ;$/;"	v
+keyint1_driver_init	key_int1.c	/^__init static int keyint1_driver_init (void)$/;"	f	file:
+keyint1_driver_init	key_int1.c	/^module_init (keyint1_driver_init) ;$/;"	v
+keyint1_ops	key_int1.c	/^static struct file_operations keyint1_ops = {$/;"	v	file:
+m	Makefile	/^obj-m := key_int1.o$/;"	m
+main	test.c	/^int main(void) $/;"	f
+major	key_int1.c	/^static int major = 248 ;$/;"	v	file:
+minor	key_int1.c	/^static int minor = 0 ;$/;"	v	file:
+pu	test.c	/^unsigned char pu[]={$/;"	v
+time	test.c	/^unsigned char time[] ={$/;"	v
+yindiao	test.c	/^unsigned int yindiao [3][7] = {$/;"	v

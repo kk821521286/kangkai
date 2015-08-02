@@ -1,0 +1,114 @@
+#include <linux/init.h>   //module_init module_exit 
+#include <linux/module.h> //module_init 
+#include <linux/kernel.h> //printk
+#include <linux/cdev.h>   //cdev init
+#include <linux/fs.h>	  //file_operations 	
+#include <linux/errno.h>  //
+/*
+ *
+ */
+unsigned int *GPDCON ;
+unsigned int *TCFG0;
+unsigned int *TCFG1;
+unsigned int *TCNTB1;
+unsigned int *TCMPB1;
+unsigned int *TCON;
+
+#define LIGHT_ON 	  __IO('m', 0)
+#define LIGHT_OFF 	  __IO('m', 1)
+#define LIGHT_TUNNING __IO('m', 2)
+// virtual address  = ioremap (phy_address, len) 
+// phy address 		  iounmap (virtual_address) ;	
+static unsigned int light_ioctl (struct file* filp, unsigned int cmd, unsigned long argv)
+{
+	switch (cmd) {
+		case LIGHT_ON: 
+			// 
+			*TCON  = (*TCON & ~(1 << 9)) | (1 << 11) | (1 << 8) ;
+			break ;
+		case LIGHT_OFF: 
+			//
+			*TCON = *TCON & ~(1 << 8) ;
+			break ;
+		case LIGHT_TUNNING: 
+			//
+			break ;
+	}
+
+	return 0 ;
+}
+
+void light_init (void) 
+{
+	*GPDCON = (2 << 4) ;
+	*TCFG0 = 65;
+	*TCNTB1 = 1000 ;
+	*TCMPB1 = 500 ;
+	*TCON  = *TCON | (1 << 9) ;
+	//	*TCON  = (*TCON & ~(1 << 9)) | (1 << 11) | (1 << 8) ;
+}
+
+
+//linux version > 2.6.39 
+//ioctl -> unlocked_ioctl 
+static struct file_operations light_ops = {
+	.unlocked_ioctl = light_ioctl ,
+};
+
+//static ??? 
+static struct cdev light_dev ;
+static int major = 249, minor = 0;
+//__init 
+__init int light_init (void)
+{
+	int ret = 0;
+	dev_t devno = MKDEV (major, minor) ;
+	ret = register_chrdev_region (devno, 1, "light_dev_number");
+	if (ret) {
+		goto err;
+	}
+	cdev_init (&light_dev, &light_ops);
+	ret = cdev_add (&light_dev, devno, 1) ;
+	if (ret) {
+		goto err1 ;
+	}
+
+	GPDCON = ioremap (0xe0300080, 4);
+	TCFG0  = ioremap (0xea000000, 12);
+	TCNTB1 = ioremap (0xea000018, 8) ;
+
+	return 0 ;
+err1:
+	unregister_chrdev_region (MKDEV(major, minor), 1) ;
+err:
+	return ret;
+}
+
+//__exit 
+__exit void light_exit (void)
+{
+	cdev_del(&light_dev);
+	unregister_chrdev_region (MKDEV(major, minor), 1) ;
+	iounmap (GPDCON) ;
+	iounmap (TCFG0) ;
+	iounmap (TCNTB1);
+}
+
+module_init (light_init) ;
+module_exit (light_exit) ;
+//module _exit () ;
+//
+/*
+ * struct module {
+ *	.init = 
+ *  .exit =  
+ * }
+ */
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+cmd_/home/qin/xian14081/04-day/tasklet/tasklet.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.11.0-26-generic/scripts/module-common.lds --build-id  -o /home/qin/xian14081/04-day/tasklet/tasklet.ko /home/qin/xian14081/04-day/tasklet/tasklet.o /home/qin/xian14081/04-day/tasklet/tasklet.mod.o

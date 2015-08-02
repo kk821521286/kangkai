@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+GPH0	key2irq_tasklet.c	26;"	d	file:
+GPH0CON	key2irq_tasklet.c	/^	unsigned int GPH0CON;$/;"	m	file:
+GPH0DAT	key2irq_tasklet.c	/^	unsigned int GPH0DAT;$/;"	m	file:
+GPH0DRV	key2irq_tasklet.c	/^	unsigned int GPH0DRV;$/;"	m	file:
+GPH0PULL	key2irq_tasklet.c	/^	unsigned int GPH0PULL;$/;"	m	file:
+KERDIR	Makefile	/^KERDIR=\/home\/linux\/linux-2.6.35-farsight\/$/;"	m
+M	Makefile	/^	$(MAKE) -C $(KERDIR) M=$(PWD) modules$/;"	m
+PEND	key2irq_tasklet.c	/^unsigned int *PEND ;$/;"	v
+PWD	Makefile	/^PWD=$(shell pwd) $/;"	m
+WKUP_INT0_7_MASK	key2irq_tasklet.c	/^unsigned int *WKUP_INT0_7_MASK ;$/;"	v
+gph0	key2irq_tasklet.c	/^}gph0;$/;"	t	file:
+gph0base	key2irq_tasklet.c	/^void *gph0base ;$/;"	v
+key_int_handler	key2irq_tasklet.c	/^irqreturn_t key_int_handler (int num, void* devid) $/;"	f
+keyint1_cdev	key2irq_tasklet.c	/^static struct cdev keyint1_cdev ;$/;"	v	file:
+keyint1_driver_exit	key2irq_tasklet.c	/^__exit static void keyint1_driver_exit (void) $/;"	f	file:
+keyint1_driver_exit	key2irq_tasklet.c	/^module_exit (keyint1_driver_exit) ;$/;"	v
+keyint1_driver_init	key2irq_tasklet.c	/^__init static int keyint1_driver_init (void)$/;"	f	file:
+keyint1_driver_init	key2irq_tasklet.c	/^module_init (keyint1_driver_init) ;$/;"	v
+keyint1_ops	key2irq_tasklet.c	/^static struct file_operations keyint1_ops = {$/;"	v	file:
+m	Makefile	/^obj-m := key2irq_tasklet.o$/;"	m
+major	key2irq_tasklet.c	/^static int major = 248 ;$/;"	v	file:
+minor	key2irq_tasklet.c	/^static int minor = 0 ;$/;"	v	file:
+task_let_handler	key2irq_tasklet.c	/^void task_let_handler (unsigned long data) $/;"	f

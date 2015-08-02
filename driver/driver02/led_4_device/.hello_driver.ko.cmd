@@ -1,0 +1,1 @@
+cmd_/home/linux/hello_multile_device_true/hello_driver.ko := arm-cortex_a8-linux-gnueabi-ld -EL -r  -T /home/linux/linux-2.6.35-farsight/scripts/module-common.lds --build-id -o /home/linux/hello_multile_device_true/hello_driver.ko /home/linux/hello_multile_device_true/hello_driver.o /home/linux/hello_multile_device_true/hello_driver.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/linux/key_workqueue/key2irq_tasklet_work.ko := arm-cortex_a8-linux-gnueabi-ld -EL -r  -T /home/linux/linux-2.6.35-farsight/scripts/module-common.lds --build-id -o /home/linux/key_workqueue/key2irq_tasklet_work.ko /home/linux/key_workqueue/key2irq_tasklet_work.o /home/linux/key_workqueue/key2irq_tasklet_work.mod.o

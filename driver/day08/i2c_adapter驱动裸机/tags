@@ -1,0 +1,1165 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+ADC	include/s5pc100.h	644;"	d
+ADCCLRINT	include/s5pc100.h	/^				unsigned int ADCCLRINT;$/;"	m
+ADCCON	include/s5pc100.h	/^				unsigned int ADCCON;$/;"	m
+ADCDAT0	include/s5pc100.h	/^				unsigned int ADCDAT0;				$/;"	m
+ADCDAT1	include/s5pc100.h	/^				unsigned int ADCDAT1;$/;"	m
+ADCDLY	include/s5pc100.h	/^				unsigned int ADCDLY;$/;"	m
+ADCMUX	include/s5pc100.h	/^				unsigned int ADCMUX;$/;"	m
+ADCPNDCLR	include/s5pc100.h	/^				unsigned int ADCPNDCLR;$/;"	m
+ADCTSC	include/s5pc100.h	/^				unsigned int ADCTSC;$/;"	m
+ADCUPDN	include/s5pc100.h	/^				unsigned int ADCUPDN;$/;"	m
+ALMDATE	include/s5pc100.h	/^				unsigned int ALMDATE;$/;"	m
+ALMHOUR	include/s5pc100.h	/^				unsigned int ALMHOUR;$/;"	m
+ALMMIN	include/s5pc100.h	/^				unsigned int ALMMIN;$/;"	m
+ALMMON	include/s5pc100.h	/^				unsigned int ALMMON;$/;"	m
+ALMSEC	include/s5pc100.h	/^				unsigned int ALMSEC;$/;"	m
+ALMYEAR	include/s5pc100.h	/^				unsigned int ALMYEAR;$/;"	m
+APLL_CON	include/s5pc100.h	/^				unsigned int APLL_CON;$/;"	m
+APLL_MASK	include/s5pc100.h	/^				unsigned int APLL_MASK;$/;"	m
+BCDDATE	include/s5pc100.h	/^				unsigned int BCDDATE;$/;"	m
+BCDDAY	include/s5pc100.h	/^				unsigned int BCDDAY;$/;"	m
+BCDHOUR	include/s5pc100.h	/^				unsigned int BCDHOUR;$/;"	m
+BCDMIN	include/s5pc100.h	/^				unsigned int BCDMIN;$/;"	m
+BCDMON	include/s5pc100.h	/^				unsigned int BCDMON;$/;"	m
+BCDSEC	include/s5pc100.h	/^				unsigned int BCDSEC;$/;"	m
+BCDYEAR	include/s5pc100.h	/^				unsigned int BCDYEAR;$/;"	m
+BLENDCON	include/s5pc100.h	/^				unsigned int BLENDCON;$/;"	m
+BLENDEQ1	include/s5pc100.h	/^				unsigned int BLENDEQ1;$/;"	m
+BLENDEQ2	include/s5pc100.h	/^				unsigned int BLENDEQ2;$/;"	m
+BLENDEQ3	include/s5pc100.h	/^				unsigned int BLENDEQ3;$/;"	m
+BLENDEQ4	include/s5pc100.h	/^				unsigned int BLENDEQ4;$/;"	m
+CC	Makefile	/^CC=$(CROSS_COMPILE)gcc$/;"	m
+CFLAG	Makefile	/^CFLAG=-mfpu=vfpv3 -mfloat-abi=softfp -mabi=apcs-gnu -fno-builtin  -fno-builtin-function \\$/;"	m
+CH_CFG	include/s5pc100.h	/^				unsigned int CH_CFG     ;$/;"	m
+CH_CFG	include/s5pc100.h	/^				unsigned int CH_CFG ;$/;"	m
+CLK_CFG	include/s5pc100.h	/^				unsigned int CLK_CFG    ;$/;"	m
+CLK_CFG	include/s5pc100.h	/^				unsigned int CLK_CFG;$/;"	m
+CLK_DIV	include/s5pc100.h	94;"	d
+CLK_DIV0	include/s5pc100.h	/^				unsigned int CLK_DIV0;$/;"	m
+CLK_DIV1	include/s5pc100.h	/^				unsigned int CLK_DIV1;$/;"	m
+CLK_DIV2	include/s5pc100.h	/^				unsigned int CLK_DIV2;$/;"	m
+CLK_DIV3	include/s5pc100.h	/^				unsigned int CLK_DIV3;$/;"	m
+CLK_DIV4	include/s5pc100.h	/^				unsigned int CLK_DIV4;$/;"	m
+CLK_GATE_D0	include/s5pc100.h	101;"	d
+CLK_GATE_D0_0	include/s5pc100.h	/^				unsigned int CLK_GATE_D0_0;$/;"	m
+CLK_GATE_D0_1	include/s5pc100.h	/^				unsigned int CLK_GATE_D0_1;$/;"	m
+CLK_GATE_D0_2	include/s5pc100.h	/^				unsigned int CLK_GATE_D0_2;$/;"	m
+CLK_GATE_D1	include/s5pc100.h	111;"	d
+CLK_GATE_D1_0	include/s5pc100.h	/^				unsigned int CLK_GATE_D1_0;$/;"	m
+CLK_GATE_D1_1	include/s5pc100.h	/^				unsigned int CLK_GATE_D1_1;$/;"	m
+CLK_GATE_D1_2	include/s5pc100.h	/^				unsigned int CLK_GATE_D1_2;$/;"	m
+CLK_GATE_D1_3	include/s5pc100.h	/^				unsigned int CLK_GATE_D1_3;$/;"	m
+CLK_GATE_D1_4	include/s5pc100.h	/^				unsigned int CLK_GATE_D1_4;$/;"	m
+CLK_GATE_D1_5	include/s5pc100.h	/^				unsigned int CLK_GATE_D1_5;$/;"	m
+CLK_GATE_D2_0	include/s5pc100.h	33;"	d
+CLK_GATE_SCLK	include/s5pc100.h	117;"	d
+CLK_GATE_SCLK_0	include/s5pc100.h	/^				unsigned int CLK_GATE_SCLK_0;$/;"	m
+CLK_GATE_SCLK_1	include/s5pc100.h	/^				unsigned int CLK_GATE_SCLK_1;$/;"	m
+CLK_OUT	include/s5pc100.h	32;"	d
+CLK_SRC	include/s5pc100.h	85;"	d
+CLK_SRC0	include/s5pc100.h	/^				unsigned int CLK_SRC0;$/;"	m
+CLK_SRC1	include/s5pc100.h	/^				unsigned int CLK_SRC1;$/;"	m
+CLK_SRC2	include/s5pc100.h	/^				unsigned int CLK_SRC2;$/;"	m
+CLK_SRC3	include/s5pc100.h	/^				unsigned int CLK_SRC3;$/;"	m
+CLK_TIMER	drivers/beep.c	3;"	d	file:
+CONCONTROL	include/s5pc100.h	/^				unsigned int CONCONTROL;$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE=arm-cortex_a8-linux-gnueabi-$/;"	m
+CS_REG	include/s5pc100.h	/^				unsigned int CS_REG     ;$/;"	m
+CS_REG	include/s5pc100.h	/^				unsigned int CS_REG;$/;"	m
+CURTICCNT	include/s5pc100.h	38;"	d
+DITHMODE	include/s5pc100.h	/^				unsigned int DITHMODE;$/;"	m
+EPLL_CON	include/s5pc100.h	/^				unsigned int EPLL_CON;$/;"	m
+EPLL_MASK	include/s5pc100.h	/^				unsigned int EPLL_MASK;$/;"	m
+FB_CLK_SEL	include/s5pc100.h	/^				unsigned int FB_CLK_SEL ;$/;"	m
+FSECC	include/s5pc100.h	/^				unsigned int FSECC   ;$/;"	m
+GPA0	include/s5pc100.h	129;"	d
+GPA0CON	include/s5pc100.h	/^				unsigned int GPA0CON;$/;"	m
+GPA0DAT	include/s5pc100.h	/^				unsigned int GPA0DAT;$/;"	m
+GPA0DRV	include/s5pc100.h	/^				unsigned int GPA0DRV;$/;"	m
+GPA0PDNCON	include/s5pc100.h	/^				unsigned int GPA0PDNCON;$/;"	m
+GPA0PDNPULL	include/s5pc100.h	/^				unsigned int GPA0PDNPULL;$/;"	m
+GPA0PULL	include/s5pc100.h	/^				unsigned int GPA0PULL;$/;"	m
+GPA1	include/s5pc100.h	140;"	d
+GPA1CON	include/s5pc100.h	/^				unsigned int GPA1CON;$/;"	m
+GPA1DAT	include/s5pc100.h	/^				unsigned int GPA1DAT;$/;"	m
+GPA1DRV	include/s5pc100.h	/^				unsigned int GPA1DRV;$/;"	m
+GPA1PDNCON	include/s5pc100.h	/^				unsigned int GPA1PDNCON;$/;"	m
+GPA1PDNPULL	include/s5pc100.h	/^				unsigned int GPA1PDNPULL;$/;"	m
+GPA1PULL	include/s5pc100.h	/^				unsigned int GPA1PULL;$/;"	m
+GPA2PDNPULL	include/s5pc100.h	/^				unsigned int GPA2PDNPULL;$/;"	m
+GPB	include/s5pc100.h	151;"	d
+GPBCON	include/s5pc100.h	/^				unsigned int GPBCON;$/;"	m
+GPBDAT	include/s5pc100.h	/^				unsigned int GPBDAT;$/;"	m
+GPBDRV	include/s5pc100.h	/^				unsigned int GPBDRV;$/;"	m
+GPBPDNCON	include/s5pc100.h	/^				unsigned int GPBPDNCON;$/;"	m
+GPBPDNPULL	include/s5pc100.h	/^				unsigned int GPBPDNPULL;$/;"	m
+GPBPUll	include/s5pc100.h	/^				unsigned int GPBPUll;$/;"	m
+GPC	include/s5pc100.h	162;"	d
+GPCCON	include/s5pc100.h	/^				unsigned int GPCCON;$/;"	m
+GPCDAT	include/s5pc100.h	/^				unsigned int GPCDAT;$/;"	m
+GPCDRV	include/s5pc100.h	/^				unsigned int GPCDRV;$/;"	m
+GPCPDNCON	include/s5pc100.h	/^				unsigned int GPCPDNCON;$/;"	m
+GPCPDNPULL	include/s5pc100.h	/^				unsigned int GPCPDNPULL;$/;"	m
+GPCPULL	include/s5pc100.h	/^				unsigned int GPCPULL;$/;"	m
+GPD	include/s5pc100.h	173;"	d
+GPDCON	include/s5pc100.h	/^				unsigned int GPDCON;$/;"	m
+GPDDAT	include/s5pc100.h	/^				unsigned int GPDDAT;$/;"	m
+GPDDRV	include/s5pc100.h	/^				unsigned int GPDDRV;$/;"	m
+GPDPDNCON	include/s5pc100.h	/^				unsigned int GPDPDNCON;$/;"	m
+GPDPDNPULL	include/s5pc100.h	/^				unsigned int GPDPDNPULL;$/;"	m
+GPDPULL	include/s5pc100.h	/^				unsigned int GPDPULL;$/;"	m
+GPE0	include/s5pc100.h	184;"	d
+GPE0CON	include/s5pc100.h	/^				unsigned int GPE0CON;$/;"	m
+GPE0DAT	include/s5pc100.h	/^				unsigned int GPE0DAT;$/;"	m
+GPE0DRV	include/s5pc100.h	/^				unsigned int GPE0DRV;$/;"	m
+GPE0PDNCON	include/s5pc100.h	/^				unsigned int GPE0PDNCON;$/;"	m
+GPE0PDNPULL	include/s5pc100.h	/^				unsigned int GPE0PDNPULL;$/;"	m
+GPE0PULL	include/s5pc100.h	/^				unsigned int GPE0PULL;$/;"	m
+GPE1	include/s5pc100.h	195;"	d
+GPE1CON	include/s5pc100.h	/^				unsigned int GPE1CON;$/;"	m
+GPE1DAT	include/s5pc100.h	/^				unsigned int GPE1DAT;$/;"	m
+GPE1DRV	include/s5pc100.h	/^				unsigned int GPE1DRV;$/;"	m
+GPE1PDNCON	include/s5pc100.h	/^				unsigned int GPE1PDNCON;$/;"	m
+GPE1PDNPULL	include/s5pc100.h	/^				unsigned int GPE1PDNPULL;$/;"	m
+GPE1PULL	include/s5pc100.h	/^				unsigned int GPE1PULL;$/;"	m
+GPF0	include/s5pc100.h	205;"	d
+GPF0CON	include/s5pc100.h	/^				unsigned int GPF0CON;$/;"	m
+GPF0DAT	include/s5pc100.h	/^				unsigned int GPF0DAT;$/;"	m
+GPF0PDNCON	include/s5pc100.h	/^				unsigned int GPF0PDNCON;$/;"	m
+GPF0PDNPULL	include/s5pc100.h	/^				unsigned int GPF0PDNPULL;$/;"	m
+GPF0PULL	include/s5pc100.h	/^				unsigned int GPF0PULL;$/;"	m
+GPF1	include/s5pc100.h	217;"	d
+GPF1CON	include/s5pc100.h	/^				unsigned int GPF1CON;$/;"	m
+GPF1DAT	include/s5pc100.h	/^				unsigned int GPF1DAT;$/;"	m
+GPF1DRV	include/s5pc100.h	/^				unsigned int GPF1DRV;$/;"	m
+GPF1PDNCON	include/s5pc100.h	/^				unsigned int GPF1PDNCON;$/;"	m
+GPF1PDNPULL	include/s5pc100.h	/^				unsigned int GPF1PDNPULL;$/;"	m
+GPF1PULL	include/s5pc100.h	/^				unsigned int GPF1PULL;$/;"	m
+GPF2	include/s5pc100.h	228;"	d
+GPF2CON	include/s5pc100.h	/^				unsigned int GPF2CON;$/;"	m
+GPF2DAT	include/s5pc100.h	/^				unsigned int GPF2DAT;$/;"	m
+GPF2DRV	include/s5pc100.h	/^				unsigned int GPF2DRV;$/;"	m
+GPF2PDNCON	include/s5pc100.h	/^				unsigned int GPF2PDNCON;$/;"	m
+GPF2PDNPULL	include/s5pc100.h	/^				unsigned int GPF2PDNPULL;$/;"	m
+GPF2PULL	include/s5pc100.h	/^				unsigned int GPF2PULL;$/;"	m
+GPF3	include/s5pc100.h	239;"	d
+GPF3CON	include/s5pc100.h	/^				unsigned int GPF3CON;$/;"	m
+GPF3DAT	include/s5pc100.h	/^				unsigned int GPF3DAT;$/;"	m
+GPF3DRV	include/s5pc100.h	/^				unsigned int GPF3DRV;$/;"	m
+GPF3PDNPULL	include/s5pc100.h	/^				unsigned int GPF3PDNPULL;$/;"	m
+GPF3PULL	include/s5pc100.h	/^				unsigned int GPF3PULL;$/;"	m
+GPG0	include/s5pc100.h	250;"	d
+GPG0CON	include/s5pc100.h	/^				unsigned int GPG0CON;$/;"	m
+GPG0DAT	include/s5pc100.h	/^				unsigned int GPG0DAT;$/;"	m
+GPG0DRV	include/s5pc100.h	/^				unsigned int GPG0DRV;$/;"	m
+GPG0PDNCON	include/s5pc100.h	/^				unsigned int GPG0PDNCON;$/;"	m
+GPG0PDNPULL	include/s5pc100.h	/^				unsigned int GPG0PDNPULL;$/;"	m
+GPG0PULL	include/s5pc100.h	/^				unsigned int GPG0PULL;$/;"	m
+GPG1	include/s5pc100.h	261;"	d
+GPG1CON	include/s5pc100.h	/^				unsigned int GPG1CON;$/;"	m
+GPG1DAT	include/s5pc100.h	/^				unsigned int GPG1DAT;$/;"	m
+GPG1DRV	include/s5pc100.h	/^				unsigned int GPG1DRV;$/;"	m
+GPG1PDNCON	include/s5pc100.h	/^				unsigned int GPG1PDNCON;$/;"	m
+GPG1PDNPULL	include/s5pc100.h	/^				unsigned int GPG1PDNPULL;$/;"	m
+GPG1PULL	include/s5pc100.h	/^				unsigned int GPG1PULL;$/;"	m
+GPG2	include/s5pc100.h	272;"	d
+GPG2CON	include/s5pc100.h	/^				unsigned int GPG2CON;$/;"	m
+GPG2DAT	include/s5pc100.h	/^				unsigned int GPG2DAT;$/;"	m
+GPG2DRV	include/s5pc100.h	/^				unsigned int GPG2DRV;$/;"	m
+GPG2PDNCON	include/s5pc100.h	/^				unsigned int GPG2PDNCON;$/;"	m
+GPG2PDNPULL	include/s5pc100.h	/^				unsigned int GPG2PDNPULL;$/;"	m
+GPG2PULL	include/s5pc100.h	/^				unsigned int GPG2PULL;$/;"	m
+GPG3	include/s5pc100.h	283;"	d
+GPG3CON	include/s5pc100.h	/^				unsigned int GPG3CON;$/;"	m
+GPG3DAT	include/s5pc100.h	/^				unsigned int GPG3DAT;$/;"	m
+GPG3DRV	include/s5pc100.h	/^				unsigned int GPG3DRV;$/;"	m
+GPG3PDNCON	include/s5pc100.h	/^				unsigned int GPG3PDNCON;$/;"	m
+GPG3PDNPULL	include/s5pc100.h	/^				unsigned int GPG3PDNPULL;$/;"	m
+GPG3PULL	include/s5pc100.h	/^				unsigned int GPG3PULL;$/;"	m
+GPH0	include/s5pc100.h	292;"	d
+GPH0CON	include/s5pc100.h	/^				unsigned int GPH0CON;$/;"	m
+GPH0DAT	include/s5pc100.h	/^				unsigned int GPH0DAT;$/;"	m
+GPH0DRV	include/s5pc100.h	/^				unsigned int GPH0DRV;$/;"	m
+GPH0PULL	include/s5pc100.h	/^				unsigned int GPH0PULL;$/;"	m
+GPH1	include/s5pc100.h	301;"	d
+GPH1CON	include/s5pc100.h	/^				unsigned int GPH1CON;$/;"	m
+GPH1DAT	include/s5pc100.h	/^				unsigned int GPH1DAT;$/;"	m
+GPH1DRV	include/s5pc100.h	/^				unsigned int GPH1DRV;$/;"	m
+GPH1PULL	include/s5pc100.h	/^				unsigned int GPH1PULL;$/;"	m
+GPH2	include/s5pc100.h	310;"	d
+GPH2CON	include/s5pc100.h	/^				unsigned int GPH2CON;$/;"	m
+GPH2DAT	include/s5pc100.h	/^				unsigned int GPH2DAT;$/;"	m
+GPH2DRV	include/s5pc100.h	/^				unsigned int GPH2DRV;$/;"	m
+GPH2PULL	include/s5pc100.h	/^				unsigned int GPH2PULL;$/;"	m
+GPH3	include/s5pc100.h	319;"	d
+GPH3CON	include/s5pc100.h	/^				unsigned int GPH3CON;$/;"	m
+GPH3DAT	include/s5pc100.h	/^				unsigned int GPH3DAT;$/;"	m
+GPH3DRV	include/s5pc100.h	/^				unsigned int GPH3DRV;$/;"	m
+GPH3PULL	include/s5pc100.h	/^				unsigned int GPH3PULL;$/;"	m
+GPI	include/s5pc100.h	330;"	d
+GPICON	include/s5pc100.h	/^				unsigned int GPICON;$/;"	m
+GPIDAT	include/s5pc100.h	/^				unsigned int GPIDAT;$/;"	m
+GPIDRV	include/s5pc100.h	/^				unsigned int GPIDRV;$/;"	m
+GPIPDNCON	include/s5pc100.h	/^				unsigned int GPIPDNCON;$/;"	m
+GPIPDNPULL	include/s5pc100.h	/^				unsigned int GPIPDNPULL;$/;"	m
+GPIPULL	include/s5pc100.h	/^				unsigned int GPIPULL;$/;"	m
+GPJ0	include/s5pc100.h	341;"	d
+GPJ0CON	include/s5pc100.h	/^				unsigned int GPJ0CON;$/;"	m
+GPJ0DAT	include/s5pc100.h	/^				unsigned int GPJ0DAT;$/;"	m
+GPJ0DRV	include/s5pc100.h	/^				unsigned int GPJ0DRV;$/;"	m
+GPJ0PDNCON	include/s5pc100.h	/^				unsigned int GPJ0PDNCON;$/;"	m
+GPJ0PDNPUL	include/s5pc100.h	/^				unsigned int GPJ0PDNPUL;$/;"	m
+GPJ0PULL	include/s5pc100.h	/^				unsigned int GPJ0PULL;$/;"	m
+GPJ1	include/s5pc100.h	353;"	d
+GPJ1CON	include/s5pc100.h	/^				unsigned int GPJ1CON;$/;"	m
+GPJ1DAT	include/s5pc100.h	/^				unsigned int GPJ1DAT;$/;"	m
+GPJ1DRV	include/s5pc100.h	/^				unsigned int GPJ1DRV;$/;"	m
+GPJ1PDNCON	include/s5pc100.h	/^				unsigned int GPJ1PDNCON;$/;"	m
+GPJ1PDNPULL	include/s5pc100.h	/^				unsigned int GPJ1PDNPULL;$/;"	m
+GPJ1PULL	include/s5pc100.h	/^				unsigned int GPJ1PULL;$/;"	m
+GPJ2	include/s5pc100.h	364;"	d
+GPJ2CON	include/s5pc100.h	/^				unsigned int GPJ2CON;$/;"	m
+GPJ2DAT	include/s5pc100.h	/^				unsigned int GPJ2DAT;$/;"	m
+GPJ2DRV	include/s5pc100.h	/^				unsigned int GPJ2DRV;$/;"	m
+GPJ2PDNCON	include/s5pc100.h	/^				unsigned int GPJ2PDNCON;$/;"	m
+GPJ2PDNPULL	include/s5pc100.h	/^				unsigned int GPJ2PDNPULL;$/;"	m
+GPJ2PULL	include/s5pc100.h	/^				unsigned int GPJ2PULL;$/;"	m
+GPJ3	include/s5pc100.h	375;"	d
+GPJ3CON	include/s5pc100.h	/^				unsigned int GPJ3CON;$/;"	m
+GPJ3DAT	include/s5pc100.h	/^				unsigned int GPJ3DAT;$/;"	m
+GPJ3DRV	include/s5pc100.h	/^				unsigned int GPJ3DRV;$/;"	m
+GPJ3PDNCON	include/s5pc100.h	/^				unsigned int GPJ3PDNCON;$/;"	m
+GPJ3PDNPULL	include/s5pc100.h	/^				unsigned int GPJ3PDNPULL;$/;"	m
+GPJ3PULL	include/s5pc100.h	/^				unsigned int GPJ3PULL;$/;"	m
+GPJ4	include/s5pc100.h	386;"	d
+GPJ4CON	include/s5pc100.h	/^				unsigned int GPJ4CON;$/;"	m
+GPJ4DAT	include/s5pc100.h	/^				unsigned int GPJ4DAT;$/;"	m
+GPJ4DRV	include/s5pc100.h	/^				unsigned int GPJ4DRV;$/;"	m
+GPJ4PDNCON	include/s5pc100.h	/^				unsigned int GPJ4PDNCON;$/;"	m
+GPJ4PDNPULL	include/s5pc100.h	/^				unsigned int GPJ4PDNPULL;$/;"	m
+GPJ4PULL	include/s5pc100.h	/^				unsigned int GPJ4PULL;$/;"	m
+GPK0	include/s5pc100.h	397;"	d
+GPK0CON	include/s5pc100.h	/^				unsigned int GPK0CON;$/;"	m
+GPK0DAT	include/s5pc100.h	/^				unsigned int GPK0DAT;$/;"	m
+GPK0DRV	include/s5pc100.h	/^				unsigned int GPK0DRV;$/;"	m
+GPK0PDNCON	include/s5pc100.h	/^				unsigned int GPK0PDNCON;$/;"	m
+GPK0PDNPULL	include/s5pc100.h	/^				unsigned int GPK0PDNPULL;$/;"	m
+GPK0PULL	include/s5pc100.h	/^				unsigned int GPK0PULL;$/;"	m
+GPK1	include/s5pc100.h	408;"	d
+GPK1CON	include/s5pc100.h	/^				unsigned int GPK1CON;$/;"	m
+GPK1DAT	include/s5pc100.h	/^				unsigned int GPK1DAT;$/;"	m
+GPK1DRV	include/s5pc100.h	/^				unsigned int GPK1DRV;$/;"	m
+GPK1PDNCON	include/s5pc100.h	/^				unsigned int GPK1PDNCON;$/;"	m
+GPK1PDNPULL	include/s5pc100.h	/^				unsigned int GPK1PDNPULL;$/;"	m
+GPK1PULL	include/s5pc100.h	/^				unsigned int GPK1PULL;$/;"	m
+GPK2	include/s5pc100.h	419;"	d
+GPK2CON	include/s5pc100.h	/^				unsigned int GPK2CON;$/;"	m
+GPK2DAT	include/s5pc100.h	/^				unsigned int GPK2DAT;$/;"	m
+GPK2DRV	include/s5pc100.h	/^				unsigned int GPK2DRV;$/;"	m
+GPK2PDNCON	include/s5pc100.h	/^				unsigned int GPK2PDNCON;$/;"	m
+GPK2PDNPULL	include/s5pc100.h	/^				unsigned int GPK2PDNPULL;$/;"	m
+GPK2PULL	include/s5pc100.h	/^				unsigned int GPK2PULL;$/;"	m
+GPK3	include/s5pc100.h	430;"	d
+GPK3CON	include/s5pc100.h	/^				unsigned int GPK3CON;$/;"	m
+GPK3DAT	include/s5pc100.h	/^				unsigned int GPK3DAT;$/;"	m
+GPK3DRV	include/s5pc100.h	/^				unsigned int GPK3DRV;$/;"	m
+GPK3PDNCON	include/s5pc100.h	/^				unsigned int GPK3PDNCON;$/;"	m
+GPK3PDNPULL	include/s5pc100.h	/^				unsigned int GPK3PDNPULL;$/;"	m
+GPK3PULL	include/s5pc100.h	/^				unsigned int GPK3PULL;$/;"	m
+GPL0	include/s5pc100.h	441;"	d
+GPL0CON	include/s5pc100.h	/^				unsigned int GPL0CON;$/;"	m
+GPL0DAT	include/s5pc100.h	/^				unsigned int GPL0DAT;$/;"	m
+GPL0DRV	include/s5pc100.h	/^				unsigned int GPL0DRV;$/;"	m
+GPL0PDNCON	include/s5pc100.h	/^				unsigned int GPL0PDNCON;$/;"	m
+GPL0PDPULL	include/s5pc100.h	/^				unsigned int GPL0PDPULL;$/;"	m
+GPL0PULL	include/s5pc100.h	/^				unsigned int GPL0PULL;$/;"	m
+GPL1	include/s5pc100.h	452;"	d
+GPL1CON	include/s5pc100.h	/^				unsigned int GPL1CON;$/;"	m
+GPL1DAT	include/s5pc100.h	/^				unsigned int GPL1DAT;$/;"	m
+GPL1DRV	include/s5pc100.h	/^				unsigned int GPL1DRV;					$/;"	m
+GPL1PDNCON	include/s5pc100.h	/^				unsigned int GPL1PDNCON;$/;"	m
+GPL1PDNPULL	include/s5pc100.h	/^				unsigned int GPL1PDNPULL;$/;"	m
+GPL2	include/s5pc100.h	463;"	d
+GPL2CON	include/s5pc100.h	/^				unsigned int GPL2CON;$/;"	m
+GPL2DAT	include/s5pc100.h	/^				unsigned int GPL2DAT;$/;"	m
+GPL2DRV	include/s5pc100.h	/^				unsigned int GPL2DRV;$/;"	m
+GPL2PDNCON	include/s5pc100.h	/^				unsigned int GPL2PDNCON;$/;"	m
+GPL2PULL	include/s5pc100.h	/^				unsigned int GPL2PULL;$/;"	m
+GPL3	include/s5pc100.h	474;"	d
+GPL3CON	include/s5pc100.h	/^				unsigned int GPL3CON;$/;"	m
+GPL3DAT	include/s5pc100.h	/^				unsigned int GPL3DAT;$/;"	m
+GPL3DRV	include/s5pc100.h	/^				unsigned int GPL3DRV;$/;"	m
+GPL3PDNCON	include/s5pc100.h	/^				unsigned int GPL3PDNCON;$/;"	m
+GPL3PDPULL	include/s5pc100.h	/^				unsigned int GPL3PDPULL;$/;"	m
+GPL3PULL	include/s5pc100.h	/^				unsigned int GPL3PULL;$/;"	m
+GPL4	include/s5pc100.h	485;"	d
+GPL4CON	include/s5pc100.h	/^				unsigned int GPL4CON;$/;"	m
+GPL4DAT	include/s5pc100.h	/^				unsigned int GPL4DAT;$/;"	m
+GPL4DRV	include/s5pc100.h	/^				unsigned int GPL4DRV;$/;"	m
+GPL4PDNCON	include/s5pc100.h	/^				unsigned int GPL4PDNCON;$/;"	m
+GPL4PDPULL	include/s5pc100.h	/^				unsigned int GPL4PDPULL;$/;"	m
+GPL4PULL	include/s5pc100.h	/^				unsigned int GPL4PULL;$/;"	m
+HPLL_CON	include/s5pc100.h	/^				unsigned int HPLL_CON;$/;"	m
+HPLL_MASK	include/s5pc100.h	/^				unsigned int HPLL_MASK;$/;"	m
+I2C0	include/s5pc100.h	1131;"	d
+I2C1	include/s5pc100.h	1143;"	d
+I2CADD0	include/s5pc100.h	/^				unsigned int I2CADD0  ;$/;"	m
+I2CADD1	include/s5pc100.h	/^				unsigned int I2CADD1;$/;"	m
+I2CCON0	include/s5pc100.h	/^				unsigned int I2CCON0 ;$/;"	m
+I2CCON1	include/s5pc100.h	/^				unsigned int I2CCON1;$/;"	m
+I2CDS0	include/s5pc100.h	/^				unsigned int I2CDS0 ;$/;"	m
+I2CDS1	include/s5pc100.h	/^				unsigned int I2CDS1;$/;"	m
+I2CLC0	include/s5pc100.h	/^				unsigned int I2CLC0 ;$/;"	m
+I2CLC1	include/s5pc100.h	/^				unsigned int I2CLC1;$/;"	m
+I2CSTAT0	include/s5pc100.h	/^				unsigned int I2CSTAT0 ;$/;"	m
+I2CSTAT1	include/s5pc100.h	/^				unsigned int I2CSTAT1;$/;"	m
+I2C_H_	include/i2c.h	9;"	d
+I2C_M_RD	include/i2c.h	13;"	d
+I2C_M_WR	include/i2c.h	12;"	d
+I80IFCONA0	include/s5pc100.h	/^				unsigned int I80IFCONA0;$/;"	m
+I80IFCONA1	include/s5pc100.h	/^				unsigned int I80IFCONA1 ;$/;"	m
+I80IFCONB0	include/s5pc100.h	/^				unsigned int I80IFCONB0;$/;"	m
+I80IFCONB1	include/s5pc100.h	/^				unsigned int I80IFCONB1 ;$/;"	m
+INCLUDE_PATH	Makefile	/^INCLUDE_PATH=".\/include"$/;"	m
+IRQ_H_	include/irq.h	9;"	d
+ITUIFCON	include/s5pc100.h	/^				unsigned int ITUIFCON;$/;"	m
+LARGE	lib/printf.c	87;"	d	file:
+LCD	include/s5pc100.h	1371;"	d
+LD	Makefile	/^LD=$(CROSS_COMPILE)ld$/;"	m
+LDI_CMD0	include/s5pc100.h	/^				unsigned int LDI_CMD0;$/;"	m
+LDI_CMD1	include/s5pc100.h	/^				unsigned int LDI_CMD1;$/;"	m
+LDI_CMD10	include/s5pc100.h	/^				unsigned int LDI_CMD10;$/;"	m
+LDI_CMD11	include/s5pc100.h	/^				unsigned int LDI_CMD11;$/;"	m
+LDI_CMD2	include/s5pc100.h	/^				unsigned int LDI_CMD2;$/;"	m
+LDI_CMD3	include/s5pc100.h	/^				unsigned int LDI_CMD3;$/;"	m
+LDI_CMD4	include/s5pc100.h	/^				unsigned int LDI_CMD4;$/;"	m
+LDI_CMD5	include/s5pc100.h	/^				unsigned int LDI_CMD5;$/;"	m
+LDI_CMD6	include/s5pc100.h	/^				unsigned int LDI_CMD6;$/;"	m
+LDI_CMD7	include/s5pc100.h	/^				unsigned int LDI_CMD7;$/;"	m
+LDI_CMD8	include/s5pc100.h	/^				unsigned int LDI_CMD8;$/;"	m
+LDI_CMD9	include/s5pc100.h	/^				unsigned int LDI_CMD9;$/;"	m
+LDI_CMDCON0	include/s5pc100.h	/^				unsigned int LDI_CMDCON0;$/;"	m
+LDI_CMDCON1	include/s5pc100.h	/^				unsigned int LDI_CMDCON1;$/;"	m
+LEFT	lib/printf.c	85;"	d	file:
+Lbignum	arch/_udivsi3.S	/^Lbignum:$/;"	l
+Lbignum	arch/_umodsi3.S	/^Lbignum:$/;"	l
+Ldiv0	arch/_udivsi3.S	/^Ldiv0:$/;"	l
+Ldiv0	arch/_umodsi3.S	/^Ldiv0:$/;"	l
+Lgot_result	arch/_udivsi3.S	/^Lgot_result:$/;"	l
+Loop1	arch/_udivsi3.S	/^Loop1:$/;"	l
+Loop1	arch/_umodsi3.S	/^Loop1:$/;"	l
+Loop3	arch/_udivsi3.S	/^Loop3:$/;"	l
+Loop3	arch/_umodsi3.S	/^Loop3:$/;"	l
+MEM	include/s5pc100.h	650;"	d
+MEMCONTROL	include/s5pc100.h	/^				unsigned int MEMCONTROL;$/;"	m
+MODE_CFG	include/s5pc100.h	/^				unsigned int MODE_CFG   ;$/;"	m
+MODE_CFG	include/s5pc100.h	/^				unsigned int MODE_CFG ;$/;"	m
+MPLL_CON	include/s5pc100.h	/^				unsigned int MPLL_CON;$/;"	m
+MPLL_MASK	include/s5pc100.h	/^				unsigned int MPLL_MASK;$/;"	m
+NAME	Makefile	/^NAME=i2c$/;"	m
+NF8ECCERR0	include/s5pc100.h	/^				unsigned int NF8ECCERR0;$/;"	m
+NF8ECCERR1	include/s5pc100.h	/^				unsigned int NF8ECCERR1;$/;"	m
+NF8ECCERR2	include/s5pc100.h	/^				unsigned int NF8ECCERR2;$/;"	m
+NFACTADJ	include/s5pc100.h	/^				unsigned int NFACTADJ ;$/;"	m
+NFADDR	include/s5pc100.h	/^				unsigned int NFADDR  ;$/;"	m
+NFC	include/s5pc100.h	1234;"	d
+NFCMMD	include/s5pc100.h	/^				unsigned int NFCMMD  ;$/;"	m
+NFCONF	include/s5pc100.h	/^				unsigned int NFCONF  ;$/;"	m
+NFCONT	include/s5pc100.h	/^				unsigned int NFCONT  ;$/;"	m
+NFDATA	include/s5pc100.h	/^				unsigned int NFDATA  ;$/;"	m
+NFEBLK	include/s5pc100.h	/^				unsigned int NFEBLK  ;$/;"	m
+NFECCERR0	include/s5pc100.h	/^				unsigned int NFECCERR0 ;$/;"	m
+NFECCERR1	include/s5pc100.h	/^				unsigned int NFECCERR1 ;$/;"	m
+NFM8ECC0	include/s5pc100.h	/^				unsigned int NFM8ECC0;$/;"	m
+NFM8ECC1	include/s5pc100.h	/^				unsigned int NFM8ECC1;$/;"	m
+NFM8ECC2	include/s5pc100.h	/^				unsigned int NFM8ECC2;$/;"	m
+NFM8ECC3	include/s5pc100.h	/^				unsigned int NFM8ECC3;$/;"	m
+NFMECC0	include/s5pc100.h	/^				unsigned int NFMECC0 ;$/;"	m
+NFMECC1	include/s5pc100.h	/^				unsigned int NFMECC1 ;$/;"	m
+NFMECCD0	include/s5pc100.h	/^				unsigned int NFMECCD0;$/;"	m
+NFMECCD1	include/s5pc100.h	/^				unsigned int NFMECCD1;$/;"	m
+NFMLC8BITPT0	include/s5pc100.h	/^				unsigned int NFMLC8BITPT0 ;$/;"	m
+NFMLC8BITPT1	include/s5pc100.h	/^				unsigned int NFMLC8BITPT1 ;$/;"	m
+NFMLCBITPT	include/s5pc100.h	/^				unsigned int NFMLCBITPT;$/;"	m
+NFSBLK	include/s5pc100.h	/^				unsigned int NFSBLK  ;$/;"	m
+NFSECCD	include/s5pc100.h	/^				unsigned int NFSECCD ;$/;"	m
+NFSTAT	include/s5pc100.h	/^				unsigned int NFSTAT  ;$/;"	m
+OBJCOPY	Makefile	/^OBJCOPY=$(CROSS_COMPILE)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP=$(CROSS_COMPILE)objdump$/;"	m
+OBJS	Makefile	/^OBJS=.\/arch\/start.o $/;"	m
+PACKET_CNT_REG	include/s5pc100.h	/^				unsigned int PACKET_CNT_REG ;$/;"	m
+PENDING_CLR_REG	include/s5pc100.h	/^				unsigned int PENDING_CLR_REG ;$/;"	m
+PLL_CON	include/s5pc100.h	77;"	d
+PLL_MASK	include/s5pc100.h	69;"	d
+PLUS	lib/printf.c	83;"	d	file:
+PRTCON	include/s5pc100.h	/^				unsigned int PRTCON ;$/;"	m
+RESERVED0	include/s5pc100.h	/^				unsigned int RESERVED0 ;$/;"	m
+RESERVED1	include/s5pc100.h	/^				unsigned int RESERVED1[3];$/;"	m
+RESERVED10	include/s5pc100.h	/^				unsigned int RESERVED10[3];$/;"	m
+RESERVED11	include/s5pc100.h	/^				unsigned int RESERVED11[4];$/;"	m
+RESERVED12	include/s5pc100.h	/^				unsigned int RESERVED12[2];$/;"	m
+RESERVED13	include/s5pc100.h	/^				unsigned int RESERVED13[4];$/;"	m
+RESERVED14	include/s5pc100.h	/^				unsigned int RESERVED14[3];$/;"	m
+RESERVED15	include/s5pc100.h	/^				unsigned int RESERVED15[2];$/;"	m
+RESERVED16	include/s5pc100.h	/^				unsigned int RESERVED16[4];$/;"	m
+RESERVED17	include/s5pc100.h	/^				unsigned int RESERVED17[2];$/;"	m
+RESERVED18	include/s5pc100.h	/^				unsigned int RESERVED18[5];$/;"	m
+RESERVED19	include/s5pc100.h	/^				unsigned int RESERVED19[7];$/;"	m
+RESERVED2	include/s5pc100.h	/^				unsigned int RESERVED2  ;$/;"	m
+RESERVED20	include/s5pc100.h	/^				unsigned int RESERVED20[3];$/;"	m
+RESERVED21	include/s5pc100.h	/^				unsigned int RESERVED21[7];$/;"	m
+RESERVED3	include/s5pc100.h	/^				unsigned int RESERVED3 ;$/;"	m
+RESERVED4	include/s5pc100.h	/^				unsigned int RESERVED4[5] ;$/;"	m
+RESERVED5	include/s5pc100.h	/^				unsigned int RESERVED5;$/;"	m
+RESERVED6	include/s5pc100.h	/^				unsigned int RESERVED6;$/;"	m
+RESERVED7	include/s5pc100.h	/^				unsigned int RESERVED7[3];$/;"	m
+RESERVED8	include/s5pc100.h	/^				unsigned int RESERVED8;$/;"	m
+RESERVED9	include/s5pc100.h	/^				unsigned int RESERVED9;$/;"	m
+RESERVEDX1	include/s5pc100.h	/^				unsigned int RESERVEDX1;$/;"	m
+RESERVEDX2	include/s5pc100.h	/^				unsigned int RESERVEDX2;$/;"	m
+RTALM	include/s5pc100.h	49;"	d
+RTCALM	include/s5pc100.h	/^				unsigned int RTCALM;$/;"	m
+RTCBCD	include/s5pc100.h	61;"	d
+RTCCON	include/s5pc100.h	36;"	d
+RTCINTP	include/s5pc100.h	35;"	d
+SIFCCON0	include/s5pc100.h	/^				unsigned int SIFCCON0;$/;"	m
+SIFCCON1	include/s5pc100.h	/^				unsigned int SIFCCON1;$/;"	m
+SIFCCON2	include/s5pc100.h	/^				unsigned int SIFCCON2;$/;"	m
+SIGN	lib/printf.c	82;"	d	file:
+SPACE	lib/printf.c	84;"	d	file:
+SPECIAL	lib/printf.c	86;"	d	file:
+SPI0	include/s5pc100.h	1162;"	d
+SPI1	include/s5pc100.h	1181;"	d
+SPI2	include/s5pc100.h	1200;"	d
+SPI_INT_EN	include/s5pc100.h	/^				unsigned int SPI_INT_EN ;$/;"	m
+SPI_RX_DATA	include/s5pc100.h	/^				unsigned int SPI_RX_DATA;$/;"	m
+SPI_STATUS	include/s5pc100.h	/^				unsigned int SPI_STATUS ;$/;"	m
+SPI_STATUS	include/s5pc100.h	/^				unsigned int SPI_STATUS;$/;"	m
+SPI_TX_DATA	include/s5pc100.h	/^				unsigned int SPI_TX_DATA;$/;"	m
+STRING_H_	include/string.h	9;"	d
+SWAP_CFG	include/s5pc100.h	/^				unsigned int SWAP_CFG   ;$/;"	m
+SWAP_CFG	include/s5pc100.h	/^				unsigned int SWAP_CFG ;$/;"	m
+TCFG0	include/s5pc100.h	/^				unsigned int TCFG0;$/;"	m
+TCFG1	include/s5pc100.h	/^				unsigned int TCFG1;$/;"	m
+TCMPB0	include/s5pc100.h	/^				unsigned int TCMPB0;$/;"	m
+TCMPB1	include/s5pc100.h	/^				unsigned int TCMPB1;$/;"	m
+TCMPB2	include/s5pc100.h	/^				unsigned int TCMPB2;$/;"	m
+TCMPB3	include/s5pc100.h	/^				unsigned int TCMPB3;$/;"	m
+TCNT02	include/s5pc100.h	/^				unsigned int TCNT02;$/;"	m
+TCNTB0	include/s5pc100.h	/^				unsigned int TCNTB0;$/;"	m
+TCNTB1	include/s5pc100.h	/^				unsigned int TCNTB1;$/;"	m
+TCNTB2	include/s5pc100.h	/^				unsigned int TCNTB2;$/;"	m
+TCNTB3	include/s5pc100.h	/^				unsigned int TCNTB3;$/;"	m
+TCNTB4	include/s5pc100.h	/^				unsigned int TCNTB4;$/;"	m
+TCNTO0	include/s5pc100.h	/^				unsigned int TCNTO0;$/;"	m
+TCNTO1	include/s5pc100.h	/^				unsigned int TCNTO1;$/;"	m
+TCNTO3	include/s5pc100.h	/^				unsigned int TCNTO3;$/;"	m
+TCNTO4	include/s5pc100.h	/^				unsigned int TCNTO4;$/;"	m
+TCON	include/s5pc100.h	/^				unsigned int TCON;$/;"	m
+TICCNT	include/s5pc100.h	37;"	d
+TIMER	include/s5pc100.h	581;"	d
+TIMER0	include/s5pc100.h	590;"	d
+TIMER1	include/s5pc100.h	601;"	d
+TIMER2	include/s5pc100.h	612;"	d
+TIMER3	include/s5pc100.h	622;"	d
+TIMER4	include/s5pc100.h	631;"	d
+TINT_CSTAT	include/s5pc100.h	574;"	d
+TRIGCON	include/s5pc100.h	/^				unsigned int TRIGCON;$/;"	m
+TZIC0FIQBypass	include/s5pc100.h	/^				unsigned int TZIC0FIQBypass ;$/;"	m
+TZIC0FIQENClear	include/s5pc100.h	/^				unsigned int TZIC0FIQENClear;$/;"	m
+TZIC0FIQEnable	include/s5pc100.h	/^				unsigned int TZIC0FIQEnable;$/;"	m
+TZIC0FIQStatus	include/s5pc100.h	/^				unsigned int TZIC0FIQStatus ;$/;"	m
+TZIC0INTERRUPT	include/s5pc100.h	1021;"	d
+TZIC0IntSelect	include/s5pc100.h	/^				unsigned int TZIC0IntSelect;$/;"	m
+TZIC0Lock	include/s5pc100.h	/^				unsigned int TZIC0Lock ;$/;"	m
+TZIC0LockStatus	include/s5pc100.h	/^				unsigned int TZIC0LockStatus;$/;"	m
+TZIC0PCellID	include/s5pc100.h	1043;"	d
+TZIC0PCellID0	include/s5pc100.h	/^				unsigned int TZIC0PCellID0 ;$/;"	m
+TZIC0PCellID1	include/s5pc100.h	/^				unsigned int TZIC0PCellID1 ;$/;"	m
+TZIC0PCellID2	include/s5pc100.h	/^				unsigned int TZIC0PCellID2 ;$/;"	m
+TZIC0PCellID3	include/s5pc100.h	/^				unsigned int TZIC0PCellID3 ;$/;"	m
+TZIC0PeriphID	include/s5pc100.h	1032;"	d
+TZIC0PeriphID0	include/s5pc100.h	/^				unsigned int TZIC0PeriphID0 ;$/;"	m
+TZIC0PeriphID1	include/s5pc100.h	/^				unsigned int TZIC0PeriphID1 ;$/;"	m
+TZIC0PeriphID2	include/s5pc100.h	/^				unsigned int TZIC0PeriphID2 ;$/;"	m
+TZIC0PeriphID3	include/s5pc100.h	/^				unsigned int TZIC0PeriphID3 ;$/;"	m
+TZIC0Protection	include/s5pc100.h	/^				unsigned int TZIC0Protection;$/;"	m
+TZIC0RawIntr	include/s5pc100.h	/^				unsigned int TZIC0RawIntr;$/;"	m
+TZIC1FIQBypass	include/s5pc100.h	/^				unsigned int TZIC1FIQBypass ;$/;"	m
+TZIC1FIQENClear	include/s5pc100.h	/^				unsigned int TZIC1FIQENClear;$/;"	m
+TZIC1FIQEnable	include/s5pc100.h	/^				unsigned int TZIC1FIQEnable;$/;"	m
+TZIC1FIQStatus	include/s5pc100.h	/^				unsigned int TZIC1FIQStatus ;$/;"	m
+TZIC1INTERRUPT	include/s5pc100.h	1059;"	d
+TZIC1IntSelect	include/s5pc100.h	/^				unsigned int TZIC1IntSelect;$/;"	m
+TZIC1Lock	include/s5pc100.h	/^				unsigned int TZIC1Lock ;$/;"	m
+TZIC1LockStatus	include/s5pc100.h	/^				unsigned int TZIC1LockStatus;$/;"	m
+TZIC1PCellID	include/s5pc100.h	1081;"	d
+TZIC1PCellID0	include/s5pc100.h	/^				unsigned int TZIC1PCellID0 ;$/;"	m
+TZIC1PCellID1	include/s5pc100.h	/^				unsigned int TZIC1PCellID1 ;$/;"	m
+TZIC1PCellID2	include/s5pc100.h	/^				unsigned int TZIC1PCellID2 ;$/;"	m
+TZIC1PCellID3	include/s5pc100.h	/^				unsigned int TZIC1PCellID3 ;$/;"	m
+TZIC1PeriphID	include/s5pc100.h	1070;"	d
+TZIC1PeriphID0	include/s5pc100.h	/^				unsigned int TZIC1PeriphID0 ;$/;"	m
+TZIC1PeriphID1	include/s5pc100.h	/^				unsigned int TZIC1PeriphID1 ;$/;"	m
+TZIC1PeriphID2	include/s5pc100.h	/^				unsigned int TZIC1PeriphID2 ;$/;"	m
+TZIC1PeriphID3	include/s5pc100.h	/^				unsigned int TZIC1PeriphID3 ;$/;"	m
+TZIC1Protection	include/s5pc100.h	/^				unsigned int TZIC1Protection;$/;"	m
+TZIC1RawIntr	include/s5pc100.h	/^				unsigned int TZIC1RawIntr;$/;"	m
+TZIC2FIQBypass	include/s5pc100.h	/^				unsigned int TZIC2FIQBypass ;$/;"	m
+TZIC2FIQENClear	include/s5pc100.h	/^				unsigned int TZIC2FIQENClear;$/;"	m
+TZIC2FIQEnable	include/s5pc100.h	/^				unsigned int TZIC2FIQEnable;$/;"	m
+TZIC2FIQStatus	include/s5pc100.h	/^				unsigned int TZIC2FIQStatus ;$/;"	m
+TZIC2INTERRUPT	include/s5pc100.h	1097;"	d
+TZIC2IntSelect	include/s5pc100.h	/^				unsigned int TZIC2IntSelect;$/;"	m
+TZIC2Lock	include/s5pc100.h	/^				unsigned int TZIC2Lock ;$/;"	m
+TZIC2LockStatus	include/s5pc100.h	/^				unsigned int TZIC2LockStatus;$/;"	m
+TZIC2PCellID	include/s5pc100.h	1119;"	d
+TZIC2PCellID0	include/s5pc100.h	/^				unsigned int TZIC2PCellID0 ;$/;"	m
+TZIC2PCellID1	include/s5pc100.h	/^				unsigned int TZIC2PCellID1 ;$/;"	m
+TZIC2PCellID2	include/s5pc100.h	/^				unsigned int TZIC2PCellID2 ;$/;"	m
+TZIC2PCellID3	include/s5pc100.h	/^				unsigned int TZIC2PCellID3 ;$/;"	m
+TZIC2PeriphID	include/s5pc100.h	1108;"	d
+TZIC2PeriphID0	include/s5pc100.h	/^				unsigned int TZIC2PeriphID0 ;$/;"	m
+TZIC2PeriphID1	include/s5pc100.h	/^				unsigned int TZIC2PeriphID1 ;$/;"	m
+TZIC2PeriphID2	include/s5pc100.h	/^				unsigned int TZIC2PeriphID2 ;$/;"	m
+TZIC2PeriphID3	include/s5pc100.h	/^				unsigned int TZIC2PeriphID3 ;$/;"	m
+TZIC2Protection	include/s5pc100.h	/^				unsigned int TZIC2Protection;$/;"	m
+TZIC2RawIntr	include/s5pc100.h	/^				unsigned int TZIC2RawIntr;$/;"	m
+UART0	include/s5pc100.h	505;"	d
+UART1	include/s5pc100.h	527;"	d
+UART2	include/s5pc100.h	549;"	d
+UART3	include/s5pc100.h	571;"	d
+UBRDIV0	include/s5pc100.h	/^				unsigned int UBRDIV0;$/;"	m
+UBRDIV1	include/s5pc100.h	/^				unsigned int UBRDIV1;$/;"	m
+UBRDIV2	include/s5pc100.h	/^				unsigned int UBRDIV2;$/;"	m
+UBRDIV3	include/s5pc100.h	/^				unsigned int UBRDIV3;$/;"	m
+UCON0	include/s5pc100.h	/^				unsigned int UCON0;$/;"	m
+UCON1	include/s5pc100.h	/^				unsigned int UCON1;$/;"	m
+UCON2	include/s5pc100.h	/^				unsigned int UCON2;$/;"	m
+UCON3	include/s5pc100.h	/^				unsigned int UCON3;$/;"	m
+UDIVSLOT0	include/s5pc100.h	/^				unsigned int UDIVSLOT0;$/;"	m
+UDIVSLOT1	include/s5pc100.h	/^				unsigned int UDIVSLOT1;$/;"	m
+UDIVSLOT2	include/s5pc100.h	/^				unsigned int UDIVSLOT2;$/;"	m
+UDIVSLOT3	include/s5pc100.h	/^				unsigned int UDIVSLOT3;$/;"	m
+UERSTAT0	include/s5pc100.h	/^				unsigned int UERSTAT0;$/;"	m
+UERSTAT1	include/s5pc100.h	/^				unsigned int UERSTAT1;$/;"	m
+UERSTAT2	include/s5pc100.h	/^				unsigned int UERSTAT2;$/;"	m
+UERSTAT3	include/s5pc100.h	/^				unsigned int UERSTAT3;$/;"	m
+UFCON0	include/s5pc100.h	/^				unsigned int UFCON0;$/;"	m
+UFCON1	include/s5pc100.h	/^				unsigned int UFCON1;$/;"	m
+UFCON2	include/s5pc100.h	/^				unsigned int UFCON2;$/;"	m
+UFCON3	include/s5pc100.h	/^				unsigned int UFCON3;$/;"	m
+UFSTAT0	include/s5pc100.h	/^				unsigned int UFSTAT0;$/;"	m
+UFSTAT1	include/s5pc100.h	/^				unsigned int UFSTAT1;$/;"	m
+UFSTAT2	include/s5pc100.h	/^				unsigned int UFSTAT2;$/;"	m
+UFSTAT3	include/s5pc100.h	/^				unsigned int UFSTAT3;$/;"	m
+UINTM0	include/s5pc100.h	/^				unsigned int UINTM0;$/;"	m
+UINTM1	include/s5pc100.h	/^				unsigned int UINTM1;$/;"	m
+UINTM2	include/s5pc100.h	/^				unsigned int UINTM2;$/;"	m
+UINTM3	include/s5pc100.h	/^				unsigned int UINTM3;$/;"	m
+UINTP0	include/s5pc100.h	/^				unsigned int UINTP0;$/;"	m
+UINTP1	include/s5pc100.h	/^				unsigned int UINTP1;$/;"	m
+UINTP2	include/s5pc100.h	/^				unsigned int UINTP2;$/;"	m
+UINTP3	include/s5pc100.h	/^				unsigned int UINTP3;$/;"	m
+UINTSP0	include/s5pc100.h	/^				unsigned int UINTSP0;$/;"	m
+UINTSP1	include/s5pc100.h	/^				unsigned int UINTSP1;$/;"	m
+UINTSP2	include/s5pc100.h	/^				unsigned int UINTSP2;$/;"	m
+UINTSP3	include/s5pc100.h	/^				unsigned int UINTSP3;$/;"	m
+ULCON0	include/s5pc100.h	/^				unsigned int ULCON0;$/;"	m
+ULCON1	include/s5pc100.h	/^				unsigned int ULCON1;$/;"	m
+ULCON2	include/s5pc100.h	/^				unsigned int ULCON2;$/;"	m
+ULCON3	include/s5pc100.h	/^				unsigned int ULCON3;$/;"	m
+UMCON0	include/s5pc100.h	/^				unsigned int UMCON0;$/;"	m
+UMCON1	include/s5pc100.h	/^				unsigned int UMCON1;$/;"	m
+UMCON2	include/s5pc100.h	/^				unsigned int UMCON2;$/;"	m
+UMCON3	include/s5pc100.h	/^				unsigned int UMCON3;$/;"	m
+UMSTAT0	include/s5pc100.h	/^				unsigned int UMSTAT0;$/;"	m
+UMSTAT1	include/s5pc100.h	/^				unsigned int UMSTAT1;$/;"	m
+UMSTAT2	include/s5pc100.h	/^				unsigned int UMSTAT2;$/;"	m
+UMSTAT3	include/s5pc100.h	/^				unsigned int UMSTAT3;$/;"	m
+URXH0	include/s5pc100.h	/^				unsigned int URXH0;$/;"	m
+URXH1	include/s5pc100.h	/^				unsigned int URXH1;$/;"	m
+URXH2	include/s5pc100.h	/^				unsigned int URXH2;$/;"	m
+URXH3	include/s5pc100.h	/^				unsigned int URXH3;$/;"	m
+UTRSTAT0	include/s5pc100.h	/^				unsigned int UTRSTAT0;$/;"	m
+UTRSTAT1	include/s5pc100.h	/^				unsigned int UTRSTAT1;$/;"	m
+UTRSTAT2	include/s5pc100.h	/^				unsigned int UTRSTAT2;$/;"	m
+UTRSTAT3	include/s5pc100.h	/^				unsigned int UTRSTAT3;$/;"	m
+UTXH0	include/s5pc100.h	/^				unsigned int UTXH0;$/;"	m
+UTXH1	include/s5pc100.h	/^				unsigned int UTXH1;$/;"	m
+UTXH2	include/s5pc100.h	/^				unsigned int UTXH2;$/;"	m
+UTXH3	include/s5pc100.h	/^				unsigned int UTXH3;$/;"	m
+VIC0ADDRESS	include/s5pc100.h	18;"	d
+VIC0FIQSTATUS	include/s5pc100.h	/^				unsigned int VIC0FIQSTATUS;$/;"	m
+VIC0INTENABLE	include/s5pc100.h	/^				unsigned int VIC0INTENABLE;$/;"	m
+VIC0INTENCLEAR	include/s5pc100.h	/^				unsigned int VIC0INTENCLEAR;$/;"	m
+VIC0INTERRUPT	include/s5pc100.h	669;"	d
+VIC0INTSELECT	include/s5pc100.h	/^				unsigned int VIC0INTSELECT;$/;"	m
+VIC0IRQSTATUS	include/s5pc100.h	/^				unsigned int VIC0IRQSTATUS;$/;"	m
+VIC0PCELLID	include/s5pc100.h	769;"	d
+VIC0PCELLID0	include/s5pc100.h	/^	            unsigned int VIC0PCELLID0;$/;"	m
+VIC0PCELLID1	include/s5pc100.h	/^	            unsigned int VIC0PCELLID1;$/;"	m
+VIC0PCELLID2	include/s5pc100.h	/^	            unsigned int VIC0PCELLID2;$/;"	m
+VIC0PCELLID3	include/s5pc100.h	/^	            unsigned int VIC0PCELLID3;$/;"	m
+VIC0PERIPHID	include/s5pc100.h	758;"	d
+VIC0PERIPHID0	include/s5pc100.h	/^	            unsigned int VIC0PERIPHID0;$/;"	m
+VIC0PERIPHID1	include/s5pc100.h	/^	            unsigned int VIC0PERIPHID1;$/;"	m
+VIC0PERIPHID2	include/s5pc100.h	/^	            unsigned int VIC0PERIPHID2;$/;"	m
+VIC0PERIPHID3	include/s5pc100.h	/^	            unsigned int VIC0PERIPHID3;$/;"	m
+VIC0PRIORITYDAISY	include/s5pc100.h	/^				unsigned int VIC0PRIORITYDAISY;$/;"	m
+VIC0PROTECTION	include/s5pc100.h	/^				unsigned int VIC0PROTECTION;$/;"	m
+VIC0RAWINTR	include/s5pc100.h	/^				unsigned int VIC0RAWINTR;$/;"	m
+VIC0SOFTINT	include/s5pc100.h	/^				unsigned int VIC0SOFTINT;$/;"	m
+VIC0SOFTINTCLEAR	include/s5pc100.h	/^				unsigned int VIC0SOFTINTCLEAR;$/;"	m
+VIC0SWPRIORITYMASK	include/s5pc100.h	/^				unsigned int VIC0SWPRIORITYMASK;$/;"	m
+VIC0VECADDR1	include/s5pc100.h	22;"	d
+VIC0VECADDR2	include/s5pc100.h	23;"	d
+VIC0VECADDR28	include/s5pc100.h	24;"	d
+VIC0VECADDR29	include/s5pc100.h	25;"	d
+VIC0VECTADDR	include/s5pc100.h	708;"	d
+VIC0VECTADDR0	include/s5pc100.h	/^				unsigned int VIC0VECTADDR0;$/;"	m
+VIC0VECTADDR1	include/s5pc100.h	/^				unsigned int VIC0VECTADDR1;$/;"	m
+VIC0VECTADDR10	include/s5pc100.h	/^				unsigned int VIC0VECTADDR10;$/;"	m
+VIC0VECTADDR11	include/s5pc100.h	/^				unsigned int VIC0VECTADDR11;$/;"	m
+VIC0VECTADDR12	include/s5pc100.h	/^				unsigned int VIC0VECTADDR12;$/;"	m
+VIC0VECTADDR13	include/s5pc100.h	/^				unsigned int VIC0VECTADDR13;$/;"	m
+VIC0VECTADDR14	include/s5pc100.h	/^				unsigned int VIC0VECTADDR14;$/;"	m
+VIC0VECTADDR15	include/s5pc100.h	/^				unsigned int VIC0VECTADDR15;$/;"	m
+VIC0VECTADDR16	include/s5pc100.h	/^				unsigned int VIC0VECTADDR16;$/;"	m
+VIC0VECTADDR17	include/s5pc100.h	/^				unsigned int VIC0VECTADDR17;$/;"	m
+VIC0VECTADDR18	include/s5pc100.h	/^				unsigned int VIC0VECTADDR18;$/;"	m
+VIC0VECTADDR19	include/s5pc100.h	/^				unsigned int VIC0VECTADDR19;$/;"	m
+VIC0VECTADDR2	include/s5pc100.h	/^				unsigned int VIC0VECTADDR2;$/;"	m
+VIC0VECTADDR20	include/s5pc100.h	/^				unsigned int VIC0VECTADDR20;$/;"	m
+VIC0VECTADDR21	include/s5pc100.h	/^				unsigned int VIC0VECTADDR21;$/;"	m
+VIC0VECTADDR22	include/s5pc100.h	/^				unsigned int VIC0VECTADDR22;$/;"	m
+VIC0VECTADDR23	include/s5pc100.h	/^				unsigned int VIC0VECTADDR23;$/;"	m
+VIC0VECTADDR24	include/s5pc100.h	/^				unsigned int VIC0VECTADDR24;$/;"	m
+VIC0VECTADDR25	include/s5pc100.h	/^				unsigned int VIC0VECTADDR25;$/;"	m
+VIC0VECTADDR26	include/s5pc100.h	/^				unsigned int VIC0VECTADDR26;$/;"	m
+VIC0VECTADDR27	include/s5pc100.h	/^				unsigned int VIC0VECTADDR27;$/;"	m
+VIC0VECTADDR28	include/s5pc100.h	/^				unsigned int VIC0VECTADDR28;$/;"	m
+VIC0VECTADDR29	include/s5pc100.h	/^				unsigned int VIC0VECTADDR29;$/;"	m
+VIC0VECTADDR3	include/s5pc100.h	/^				unsigned int VIC0VECTADDR3;$/;"	m
+VIC0VECTADDR30	include/s5pc100.h	/^				unsigned int VIC0VECTADDR30;$/;"	m
+VIC0VECTADDR31	include/s5pc100.h	/^				unsigned int VIC0VECTADDR31;$/;"	m
+VIC0VECTADDR4	include/s5pc100.h	/^				unsigned int VIC0VECTADDR4;$/;"	m
+VIC0VECTADDR5	include/s5pc100.h	/^				unsigned int VIC0VECTADDR5;$/;"	m
+VIC0VECTADDR6	include/s5pc100.h	/^				unsigned int VIC0VECTADDR6;$/;"	m
+VIC0VECTADDR7	include/s5pc100.h	/^				unsigned int VIC0VECTADDR7;$/;"	m
+VIC0VECTADDR8	include/s5pc100.h	/^				unsigned int VIC0VECTADDR8;$/;"	m
+VIC0VECTADDR9	include/s5pc100.h	/^				unsigned int VIC0VECTADDR9;$/;"	m
+VIC0VECTPRIORITY	include/s5pc100.h	747;"	d
+VIC0VECTPRIORITY0	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY0;$/;"	m
+VIC0VECTPRIORITY1	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY1;$/;"	m
+VIC0VECTPRIORITY10	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY10;$/;"	m
+VIC0VECTPRIORITY11	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY11;$/;"	m
+VIC0VECTPRIORITY12	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY12;$/;"	m
+VIC0VECTPRIORITY13	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY13;$/;"	m
+VIC0VECTPRIORITY14	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY14;$/;"	m
+VIC0VECTPRIORITY15	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY15;$/;"	m
+VIC0VECTPRIORITY16	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY16;$/;"	m
+VIC0VECTPRIORITY17	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY17;$/;"	m
+VIC0VECTPRIORITY18	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY18;$/;"	m
+VIC0VECTPRIORITY19	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY19;$/;"	m
+VIC0VECTPRIORITY2	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY2;$/;"	m
+VIC0VECTPRIORITY20	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY20;$/;"	m
+VIC0VECTPRIORITY21	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY21;$/;"	m
+VIC0VECTPRIORITY22	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY22;$/;"	m
+VIC0VECTPRIORITY23	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY23;$/;"	m
+VIC0VECTPRIORITY24	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY24;$/;"	m
+VIC0VECTPRIORITY25	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY25;$/;"	m
+VIC0VECTPRIORITY26	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY26;$/;"	m
+VIC0VECTPRIORITY27	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY27;$/;"	m
+VIC0VECTPRIORITY28	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY28;$/;"	m
+VIC0VECTPRIORITY29	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY29;$/;"	m
+VIC0VECTPRIORITY3	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY3;$/;"	m
+VIC0VECTPRIORITY30	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY30;$/;"	m
+VIC0VECTPRIORITY31	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY31;$/;"	m
+VIC0VECTPRIORITY4	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY4;$/;"	m
+VIC0VECTPRIORITY5	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY5;$/;"	m
+VIC0VECTPRIORITY6	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY6;$/;"	m
+VIC0VECTPRIORITY7	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY7;$/;"	m
+VIC0VECTPRIORITY8	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY8;$/;"	m
+VIC0VECTPRIORITY9	include/s5pc100.h	/^				unsigned int VIC0VECTPRIORITY9;$/;"	m
+VIC1ADDRESS	include/s5pc100.h	19;"	d
+VIC1FIQSTATUS	include/s5pc100.h	/^				unsigned int VIC1FIQSTATUS;$/;"	m
+VIC1INTENABLE	include/s5pc100.h	/^				unsigned int VIC1INTENABLE;$/;"	m
+VIC1INTENCLEAR	include/s5pc100.h	/^				unsigned int VIC1INTENCLEAR;$/;"	m
+VIC1INTERRUPT	include/s5pc100.h	787;"	d
+VIC1INTSELECT	include/s5pc100.h	/^				unsigned int VIC1INTSELECT;$/;"	m
+VIC1IRQSTATUS	include/s5pc100.h	/^				unsigned int VIC1IRQSTATUS ;$/;"	m
+VIC1PCELLID	include/s5pc100.h	887;"	d
+VIC1PCELLID0	include/s5pc100.h	/^	            unsigned int VIC1PCELLID0;$/;"	m
+VIC1PCELLID1	include/s5pc100.h	/^	            unsigned int VIC1PCELLID1;$/;"	m
+VIC1PCELLID2	include/s5pc100.h	/^	            unsigned int VIC1PCELLID2;$/;"	m
+VIC1PCELLID3	include/s5pc100.h	/^	            unsigned int VIC1PCELLID3;$/;"	m
+VIC1PERIPHID	include/s5pc100.h	876;"	d
+VIC1PERIPHID0	include/s5pc100.h	/^	            unsigned int VIC1PERIPHID0;$/;"	m
+VIC1PERIPHID1	include/s5pc100.h	/^	            unsigned int VIC1PERIPHID1;$/;"	m
+VIC1PERIPHID2	include/s5pc100.h	/^	            unsigned int VIC1PERIPHID2;$/;"	m
+VIC1PERIPHID3	include/s5pc100.h	/^	            unsigned int VIC1PERIPHID3;$/;"	m
+VIC1PRIORITYDAISY	include/s5pc100.h	/^				unsigned int VIC1PRIORITYDAISY;$/;"	m
+VIC1PROTECTION	include/s5pc100.h	/^				unsigned int VIC1PROTECTION;$/;"	m
+VIC1RAWINTR	include/s5pc100.h	/^				unsigned int VIC1RAWINTR;$/;"	m
+VIC1SOFTINT	include/s5pc100.h	/^				unsigned int VIC1SOFTINT;$/;"	m
+VIC1SOFTINTCLEAR	include/s5pc100.h	/^				unsigned int VIC1SOFTINTCLEAR;$/;"	m
+VIC1SWPRIORITYMASK	include/s5pc100.h	/^				unsigned int VIC1SWPRIORITYMASK;$/;"	m
+VIC1VECADDR10	include/s5pc100.h	28;"	d
+VIC1VECTADDR	include/s5pc100.h	826;"	d
+VIC1VECTADDR0	include/s5pc100.h	/^				unsigned int VIC1VECTADDR0;$/;"	m
+VIC1VECTADDR1	include/s5pc100.h	/^				unsigned int VIC1VECTADDR1;$/;"	m
+VIC1VECTADDR10	include/s5pc100.h	/^				unsigned int VIC1VECTADDR10;$/;"	m
+VIC1VECTADDR11	include/s5pc100.h	/^				unsigned int VIC1VECTADDR11;$/;"	m
+VIC1VECTADDR12	include/s5pc100.h	/^				unsigned int VIC1VECTADDR12;$/;"	m
+VIC1VECTADDR13	include/s5pc100.h	/^				unsigned int VIC1VECTADDR13;$/;"	m
+VIC1VECTADDR14	include/s5pc100.h	/^				unsigned int VIC1VECTADDR14;$/;"	m
+VIC1VECTADDR15	include/s5pc100.h	/^				unsigned int VIC1VECTADDR15;$/;"	m
+VIC1VECTADDR16	include/s5pc100.h	/^				unsigned int VIC1VECTADDR16;$/;"	m
+VIC1VECTADDR17	include/s5pc100.h	/^				unsigned int VIC1VECTADDR17;$/;"	m
+VIC1VECTADDR18	include/s5pc100.h	/^				unsigned int VIC1VECTADDR18;$/;"	m
+VIC1VECTADDR19	include/s5pc100.h	/^				unsigned int VIC1VECTADDR19;$/;"	m
+VIC1VECTADDR2	include/s5pc100.h	/^				unsigned int VIC1VECTADDR2;$/;"	m
+VIC1VECTADDR20	include/s5pc100.h	/^				unsigned int VIC1VECTADDR20;$/;"	m
+VIC1VECTADDR21	include/s5pc100.h	/^				unsigned int VIC1VECTADDR21;$/;"	m
+VIC1VECTADDR22	include/s5pc100.h	/^				unsigned int VIC1VECTADDR22;$/;"	m
+VIC1VECTADDR23	include/s5pc100.h	/^				unsigned int VIC1VECTADDR23;$/;"	m
+VIC1VECTADDR24	include/s5pc100.h	/^				unsigned int VIC1VECTADDR24;$/;"	m
+VIC1VECTADDR25	include/s5pc100.h	/^				unsigned int VIC1VECTADDR25;$/;"	m
+VIC1VECTADDR26	include/s5pc100.h	/^				unsigned int VIC1VECTADDR26;$/;"	m
+VIC1VECTADDR27	include/s5pc100.h	/^				unsigned int VIC1VECTADDR27;$/;"	m
+VIC1VECTADDR28	include/s5pc100.h	/^				unsigned int VIC1VECTADDR28;$/;"	m
+VIC1VECTADDR29	include/s5pc100.h	/^				unsigned int VIC1VECTADDR29;$/;"	m
+VIC1VECTADDR3	include/s5pc100.h	/^				unsigned int VIC1VECTADDR3;$/;"	m
+VIC1VECTADDR30	include/s5pc100.h	/^				unsigned int VIC1VECTADDR30;$/;"	m
+VIC1VECTADDR31	include/s5pc100.h	/^				unsigned int VIC1VECTADDR31;$/;"	m
+VIC1VECTADDR4	include/s5pc100.h	/^				unsigned int VIC1VECTADDR4;$/;"	m
+VIC1VECTADDR5	include/s5pc100.h	/^				unsigned int VIC1VECTADDR5;$/;"	m
+VIC1VECTADDR6	include/s5pc100.h	/^				unsigned int VIC1VECTADDR6;$/;"	m
+VIC1VECTADDR7	include/s5pc100.h	/^				unsigned int VIC1VECTADDR7;$/;"	m
+VIC1VECTADDR8	include/s5pc100.h	/^				unsigned int VIC1VECTADDR8;$/;"	m
+VIC1VECTADDR9	include/s5pc100.h	/^				unsigned int VIC1VECTADDR9;$/;"	m
+VIC1VECTPRIORITY	include/s5pc100.h	865;"	d
+VIC1VECTPRIORITY0	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY0;$/;"	m
+VIC1VECTPRIORITY1	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY1;$/;"	m
+VIC1VECTPRIORITY10	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY10;$/;"	m
+VIC1VECTPRIORITY11	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY11;$/;"	m
+VIC1VECTPRIORITY12	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY12;$/;"	m
+VIC1VECTPRIORITY13	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY13;$/;"	m
+VIC1VECTPRIORITY14	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY14;$/;"	m
+VIC1VECTPRIORITY15	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY15;$/;"	m
+VIC1VECTPRIORITY16	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY16;$/;"	m
+VIC1VECTPRIORITY17	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY17;$/;"	m
+VIC1VECTPRIORITY18	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY18;$/;"	m
+VIC1VECTPRIORITY19	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY19;$/;"	m
+VIC1VECTPRIORITY2	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY2;$/;"	m
+VIC1VECTPRIORITY20	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY20;$/;"	m
+VIC1VECTPRIORITY21	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY21;$/;"	m
+VIC1VECTPRIORITY22	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY22;$/;"	m
+VIC1VECTPRIORITY23	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY23;$/;"	m
+VIC1VECTPRIORITY24	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY24;$/;"	m
+VIC1VECTPRIORITY25	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY25;$/;"	m
+VIC1VECTPRIORITY26	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY26;$/;"	m
+VIC1VECTPRIORITY27	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY27;$/;"	m
+VIC1VECTPRIORITY28	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY28;$/;"	m
+VIC1VECTPRIORITY29	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY29;$/;"	m
+VIC1VECTPRIORITY3	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY3;$/;"	m
+VIC1VECTPRIORITY30	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY30;$/;"	m
+VIC1VECTPRIORITY31	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY31;$/;"	m
+VIC1VECTPRIORITY4	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY4;$/;"	m
+VIC1VECTPRIORITY5	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY5;$/;"	m
+VIC1VECTPRIORITY6	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY6;$/;"	m
+VIC1VECTPRIORITY7	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY7;$/;"	m
+VIC1VECTPRIORITY8	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY8;$/;"	m
+VIC1VECTPRIORITY9	include/s5pc100.h	/^				unsigned int VIC1VECTPRIORITY9;$/;"	m
+VIC2ADDRESS	include/s5pc100.h	20;"	d
+VIC2FIQSTATUS	include/s5pc100.h	/^				unsigned int VIC2FIQSTATUS;$/;"	m
+VIC2INTENABLE	include/s5pc100.h	/^				unsigned int VIC2INTENABLE;$/;"	m
+VIC2INTENCLEAR	include/s5pc100.h	/^				unsigned int VIC2INTENCLEAR;$/;"	m
+VIC2INTERRUPT	include/s5pc100.h	905;"	d
+VIC2INTSELECT	include/s5pc100.h	/^				unsigned int VIC2INTSELECT;$/;"	m
+VIC2IRQSTATUS	include/s5pc100.h	/^				unsigned int VIC2IRQSTATUS ;$/;"	m
+VIC2PCELLID	include/s5pc100.h	1005;"	d
+VIC2PCELLID0	include/s5pc100.h	/^	            unsigned int VIC2PCELLID0;$/;"	m
+VIC2PCELLID1	include/s5pc100.h	/^	            unsigned int VIC2PCELLID1;$/;"	m
+VIC2PCELLID2	include/s5pc100.h	/^	            unsigned int VIC2PCELLID2;$/;"	m
+VIC2PCELLID3	include/s5pc100.h	/^	            unsigned int VIC2PCELLID3;$/;"	m
+VIC2PERIPHID	include/s5pc100.h	994;"	d
+VIC2PERIPHID0	include/s5pc100.h	/^	            unsigned int VIC2PERIPHID0;$/;"	m
+VIC2PERIPHID1	include/s5pc100.h	/^	            unsigned int VIC2PERIPHID1;$/;"	m
+VIC2PERIPHID2	include/s5pc100.h	/^	            unsigned int VIC2PERIPHID2;$/;"	m
+VIC2PERIPHID3	include/s5pc100.h	/^	            unsigned int VIC2PERIPHID3;$/;"	m
+VIC2PRIORITYDAISY	include/s5pc100.h	/^				unsigned int VIC2PRIORITYDAISY;$/;"	m
+VIC2PROTECTION	include/s5pc100.h	/^				unsigned int VIC2PROTECTION;$/;"	m
+VIC2RAWINTR	include/s5pc100.h	/^				unsigned int VIC2RAWINTR;$/;"	m
+VIC2SOFTINT	include/s5pc100.h	/^				unsigned int VIC2SOFTINT;$/;"	m
+VIC2SOFTINTCLEAR	include/s5pc100.h	/^				unsigned int VIC2SOFTINTCLEAR;$/;"	m
+VIC2SWPRIORITYMASK	include/s5pc100.h	/^				unsigned int VIC2SWPRIORITYMASK;$/;"	m
+VIC2VECTADDR	include/s5pc100.h	944;"	d
+VIC2VECTADDR0	include/s5pc100.h	/^				unsigned int VIC2VECTADDR0;$/;"	m
+VIC2VECTADDR1	include/s5pc100.h	/^				unsigned int VIC2VECTADDR1;$/;"	m
+VIC2VECTADDR10	include/s5pc100.h	/^				unsigned int VIC2VECTADDR10;$/;"	m
+VIC2VECTADDR11	include/s5pc100.h	/^				unsigned int VIC2VECTADDR11;$/;"	m
+VIC2VECTADDR12	include/s5pc100.h	/^				unsigned int VIC2VECTADDR12;$/;"	m
+VIC2VECTADDR13	include/s5pc100.h	/^				unsigned int VIC2VECTADDR13;$/;"	m
+VIC2VECTADDR14	include/s5pc100.h	/^				unsigned int VIC2VECTADDR14;$/;"	m
+VIC2VECTADDR15	include/s5pc100.h	/^				unsigned int VIC2VECTADDR15;$/;"	m
+VIC2VECTADDR16	include/s5pc100.h	/^				unsigned int VIC2VECTADDR16;$/;"	m
+VIC2VECTADDR17	include/s5pc100.h	/^				unsigned int VIC2VECTADDR17;$/;"	m
+VIC2VECTADDR18	include/s5pc100.h	/^				unsigned int VIC2VECTADDR18;$/;"	m
+VIC2VECTADDR19	include/s5pc100.h	/^				unsigned int VIC2VECTADDR19;$/;"	m
+VIC2VECTADDR2	include/s5pc100.h	/^				unsigned int VIC2VECTADDR2;$/;"	m
+VIC2VECTADDR20	include/s5pc100.h	/^				unsigned int VIC2VECTADDR20;$/;"	m
+VIC2VECTADDR21	include/s5pc100.h	/^				unsigned int VIC2VECTADDR21;$/;"	m
+VIC2VECTADDR22	include/s5pc100.h	/^				unsigned int VIC2VECTADDR22;$/;"	m
+VIC2VECTADDR23	include/s5pc100.h	/^				unsigned int VIC2VECTADDR23;$/;"	m
+VIC2VECTADDR24	include/s5pc100.h	/^				unsigned int VIC2VECTADDR24;$/;"	m
+VIC2VECTADDR25	include/s5pc100.h	/^				unsigned int VIC2VECTADDR25;$/;"	m
+VIC2VECTADDR26	include/s5pc100.h	/^				unsigned int VIC2VECTADDR26;$/;"	m
+VIC2VECTADDR27	include/s5pc100.h	/^				unsigned int VIC2VECTADDR27;$/;"	m
+VIC2VECTADDR28	include/s5pc100.h	/^				unsigned int VIC2VECTADDR28;$/;"	m
+VIC2VECTADDR29	include/s5pc100.h	/^				unsigned int VIC2VECTADDR29;$/;"	m
+VIC2VECTADDR3	include/s5pc100.h	/^				unsigned int VIC2VECTADDR3;$/;"	m
+VIC2VECTADDR30	include/s5pc100.h	/^				unsigned int VIC2VECTADDR30;$/;"	m
+VIC2VECTADDR31	include/s5pc100.h	/^				unsigned int VIC2VECTADDR31;$/;"	m
+VIC2VECTADDR4	include/s5pc100.h	/^				unsigned int VIC2VECTADDR4;$/;"	m
+VIC2VECTADDR5	include/s5pc100.h	/^				unsigned int VIC2VECTADDR5;$/;"	m
+VIC2VECTADDR6	include/s5pc100.h	/^				unsigned int VIC2VECTADDR6;$/;"	m
+VIC2VECTADDR7	include/s5pc100.h	/^				unsigned int VIC2VECTADDR7;$/;"	m
+VIC2VECTADDR8	include/s5pc100.h	/^				unsigned int VIC2VECTADDR8;$/;"	m
+VIC2VECTADDR9	include/s5pc100.h	/^				unsigned int VIC2VECTADDR9;$/;"	m
+VIC2VECTPRIORITY	include/s5pc100.h	983;"	d
+VIC2VECTPRIORITY0	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY0;$/;"	m
+VIC2VECTPRIORITY1	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY1;$/;"	m
+VIC2VECTPRIORITY10	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY10;$/;"	m
+VIC2VECTPRIORITY11	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY11;$/;"	m
+VIC2VECTPRIORITY12	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY12;$/;"	m
+VIC2VECTPRIORITY13	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY13;$/;"	m
+VIC2VECTPRIORITY14	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY14;$/;"	m
+VIC2VECTPRIORITY15	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY15;$/;"	m
+VIC2VECTPRIORITY16	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY16;$/;"	m
+VIC2VECTPRIORITY17	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY17;$/;"	m
+VIC2VECTPRIORITY18	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY18;$/;"	m
+VIC2VECTPRIORITY19	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY19;$/;"	m
+VIC2VECTPRIORITY2	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY2;$/;"	m
+VIC2VECTPRIORITY20	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY20;$/;"	m
+VIC2VECTPRIORITY21	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY21;$/;"	m
+VIC2VECTPRIORITY22	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY22;$/;"	m
+VIC2VECTPRIORITY23	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY23;$/;"	m
+VIC2VECTPRIORITY24	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY24;$/;"	m
+VIC2VECTPRIORITY25	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY25;$/;"	m
+VIC2VECTPRIORITY26	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY26;$/;"	m
+VIC2VECTPRIORITY27	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY27;$/;"	m
+VIC2VECTPRIORITY28	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY28;$/;"	m
+VIC2VECTPRIORITY29	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY29;$/;"	m
+VIC2VECTPRIORITY3	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY3;$/;"	m
+VIC2VECTPRIORITY30	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY30;$/;"	m
+VIC2VECTPRIORITY31	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY31;$/;"	m
+VIC2VECTPRIORITY4	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY4;$/;"	m
+VIC2VECTPRIORITY5	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY5;$/;"	m
+VIC2VECTPRIORITY6	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY6;$/;"	m
+VIC2VECTPRIORITY7	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY7;$/;"	m
+VIC2VECTPRIORITY8	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY8;$/;"	m
+VIC2VECTPRIORITY9	include/s5pc100.h	/^				unsigned int VIC2VECTPRIORITY9;$/;"	m
+VICINTSELECT0	include/s5pc100.h	29;"	d
+VIDCON0	include/s5pc100.h	/^				unsigned int VIDCON0 ;$/;"	m
+VIDCON1	include/s5pc100.h	/^				unsigned int VIDCON1 ;$/;"	m
+VIDCON2	include/s5pc100.h	/^				unsigned int VIDCON2 ;$/;"	m
+VIDINTCON0	include/s5pc100.h	/^				unsigned int VIDINTCON0;$/;"	m
+VIDINTCON1	include/s5pc100.h	/^				unsigned int VIDINTCON1;$/;"	m
+VIDOSD0A	include/s5pc100.h	/^				unsigned int VIDOSD0A ;$/;"	m
+VIDOSD0B	include/s5pc100.h	/^				unsigned int VIDOSD0B ;$/;"	m
+VIDOSD0C	include/s5pc100.h	/^				unsigned int VIDOSD0C ;$/;"	m
+VIDOSD1A	include/s5pc100.h	/^				unsigned int VIDOSD1A  ;$/;"	m
+VIDOSD1B	include/s5pc100.h	/^				unsigned int VIDOSD1B ;$/;"	m
+VIDOSD1C	include/s5pc100.h	/^				unsigned int VIDOSD1C ;$/;"	m
+VIDOSD1D	include/s5pc100.h	/^				unsigned int VIDOSD1D ;$/;"	m
+VIDOSD2A	include/s5pc100.h	/^				unsigned int VIDOSD2A ;$/;"	m
+VIDOSD2B	include/s5pc100.h	/^				unsigned int VIDOSD2B ;$/;"	m
+VIDOSD2C	include/s5pc100.h	/^				unsigned int VIDOSD2C ;$/;"	m
+VIDOSD2D	include/s5pc100.h	/^				unsigned int VIDOSD2D ;$/;"	m
+VIDOSD3A	include/s5pc100.h	/^				unsigned int VIDOSD3A ;$/;"	m
+VIDOSD3B	include/s5pc100.h	/^				unsigned int VIDOSD3B ;$/;"	m
+VIDOSD3C	include/s5pc100.h	/^				unsigned int VIDOSD3C ;$/;"	m
+VIDOSD4A	include/s5pc100.h	/^				unsigned int VIDOSD4A ;$/;"	m
+VIDOSD4B	include/s5pc100.h	/^				unsigned int VIDOSD4B ;$/;"	m
+VIDOSD4C	include/s5pc100.h	/^				unsigned int VIDOSD4C ;$/;"	m
+VIDTCON0	include/s5pc100.h	/^				unsigned int VIDTCON0 ;$/;"	m
+VIDTCON1	include/s5pc100.h	/^				unsigned int VIDTCON1 ;$/;"	m
+VIDTCON2	include/s5pc100.h	/^				unsigned int VIDTCON2 ;$/;"	m
+VIDW00ADD0B0	include/s5pc100.h	/^				unsigned int VIDW00ADD0B0;$/;"	m
+VIDW00ADD0B1	include/s5pc100.h	/^				unsigned int VIDW00ADD0B1;$/;"	m
+VIDW00ADD1B0	include/s5pc100.h	/^				unsigned int VIDW00ADD1B0;$/;"	m
+VIDW00ADD1B1	include/s5pc100.h	/^				unsigned int VIDW00ADD1B1 ;$/;"	m
+VIDW00ADD2	include/s5pc100.h	/^				unsigned int VIDW00ADD2 ;$/;"	m
+VIDW01ADD0B0	include/s5pc100.h	/^				unsigned int VIDW01ADD0B0;$/;"	m
+VIDW01ADD0B1	include/s5pc100.h	/^				unsigned int VIDW01ADD0B1;$/;"	m
+VIDW01ADD1B0	include/s5pc100.h	/^				unsigned int VIDW01ADD1B0 ;$/;"	m
+VIDW01ADD1B1	include/s5pc100.h	/^				unsigned int VIDW01ADD1B1 ;$/;"	m
+VIDW01ADD2	include/s5pc100.h	/^				unsigned int VIDW01ADD2;$/;"	m
+VIDW02ADD0	include/s5pc100.h	/^				unsigned int VIDW02ADD0;$/;"	m
+VIDW02ADD1	include/s5pc100.h	/^				unsigned int VIDW02ADD1 ;$/;"	m
+VIDW02ADD2	include/s5pc100.h	/^				unsigned int VIDW02ADD2;$/;"	m
+VIDW03ADD0	include/s5pc100.h	/^				unsigned int VIDW03ADD0;$/;"	m
+VIDW03ADD1	include/s5pc100.h	/^				unsigned int VIDW03ADD1 ;$/;"	m
+VIDW03ADD2	include/s5pc100.h	/^				unsigned int VIDW03ADD2;$/;"	m
+VIDW04ADD0	include/s5pc100.h	/^				unsigned int VIDW04ADD0;$/;"	m
+VIDW04ADD1	include/s5pc100.h	/^				unsigned int VIDW04ADD1 ;$/;"	m
+VIDW04ADD2	include/s5pc100.h	/^				unsigned int VIDW04ADD2;$/;"	m
+VIDW0ALPHA0	include/s5pc100.h	/^				unsigned int VIDW0ALPHA0;$/;"	m
+VIDW0ALPHA1	include/s5pc100.h	/^				unsigned int VIDW0ALPHA1;$/;"	m
+VIDW1ALPHA0	include/s5pc100.h	/^				unsigned int VIDW1ALPHA0;$/;"	m
+VIDW1ALPHA1	include/s5pc100.h	/^				unsigned int VIDW1ALPHA1;$/;"	m
+VIDW2ALPHA0	include/s5pc100.h	/^				unsigned int VIDW2ALPHA0;$/;"	m
+VIDW2ALPHA1	include/s5pc100.h	/^				unsigned int VIDW2ALPHA1;$/;"	m
+VIDW3ALPHA0	include/s5pc100.h	/^				unsigned int VIDW3ALPHA0;$/;"	m
+VIDW3ALPHA1	include/s5pc100.h	/^				unsigned int VIDW3ALPHA1;$/;"	m
+VIDW4ALPHA0	include/s5pc100.h	/^				unsigned int VIDW4ALPHA0;$/;"	m
+VIDW4ALPHA1	include/s5pc100.h	/^				unsigned int VIDW4ALPHA1;$/;"	m
+VP1TCON0	include/s5pc100.h	/^				unsigned int VP1TCON0;$/;"	m
+VP1TCON1	include/s5pc100.h	/^				unsigned int VP1TCON1;$/;"	m
+W1KEYCON0	include/s5pc100.h	/^				unsigned int W1KEYCON0;$/;"	m
+W1KEYCON1	include/s5pc100.h	/^				unsigned int W1KEYCON1;$/;"	m
+W2KEYCON0	include/s5pc100.h	/^				unsigned int W2KEYCON0;$/;"	m
+W2KEYCON1	include/s5pc100.h	/^				unsigned int W2KEYCON1;$/;"	m
+W3KEYCON0	include/s5pc100.h	/^				unsigned int W3KEYCON0;$/;"	m
+W3KEYCON1	include/s5pc100.h	/^				unsigned int W3KEYCON1;$/;"	m
+W4KEYCON0	include/s5pc100.h	/^				unsigned int W4KEYCON0;$/;"	m
+W4KEYCON1	include/s5pc100.h	/^				unsigned int W4KEYCON1;$/;"	m
+WIN0MAP	include/s5pc100.h	/^				unsigned int WIN0MAP;$/;"	m
+WIN1MAP	include/s5pc100.h	/^				unsigned int WIN1MAP;$/;"	m
+WIN2MAP	include/s5pc100.h	/^				unsigned int WIN2MAP;$/;"	m
+WIN3MAP	include/s5pc100.h	/^				unsigned int WIN3MAP;$/;"	m
+WIN4MAP	include/s5pc100.h	/^				unsigned int WIN4MAP;$/;"	m
+WINCON0	include/s5pc100.h	/^				unsigned int WINCON0 ;$/;"	m
+WINCON1	include/s5pc100.h	/^				unsigned int WINCON1 ;$/;"	m
+WINCON2	include/s5pc100.h	/^				unsigned int WINCON2 ;$/;"	m
+WINCON3	include/s5pc100.h	/^				unsigned int WINCON3 ;$/;"	m
+WINCON4	include/s5pc100.h	/^				unsigned int WINCON4 ;$/;"	m
+WKUP_INT0_7_CON	include/s5pc100.h	16;"	d
+WKUP_INT0_7_MASK	include/s5pc100.h	14;"	d
+WKUP_INT0_7_PEND	include/s5pc100.h	15;"	d
+WPALCON_H	include/s5pc100.h	/^				unsigned int WPALCON_H;$/;"	m
+WPALCON_L	include/s5pc100.h	/^				unsigned int WPALCON_L;$/;"	m
+ZEROPAD	lib/printf.c	81;"	d	file:
+_ADC_H	include/adc.h	2;"	d
+_ANSI_STDARG_H_	include/stdarg.h	32;"	d
+_BSD_VA_LIST	include/stdarg.h	67;"	d
+_C	include/ctype.h	12;"	d
+_D	include/ctype.h	11;"	d
+_KEY_H	include/key.h	2;"	d
+_L	include/ctype.h	10;"	d
+_LINUX_CTYPE_H	include/ctype.h	2;"	d
+_P	include/ctype.h	13;"	d
+_RTC_H	include/rtc.h	2;"	d
+_S	include/ctype.h	14;"	d
+_SP	include/ctype.h	16;"	d
+_STDARG_H	include/stdarg.h	31;"	d
+_U	include/ctype.h	9;"	d
+_UART_H	include/uart.h	2;"	d
+_VA_LIST	include/stdarg.h	111;"	d
+_VA_LIST	include/stdarg.h	63;"	d
+_VA_LIST	include/stdarg.h	79;"	d
+_VA_LIST_	include/stdarg.h	108;"	d
+_VA_LIST_	include/stdarg.h	76;"	d
+_VA_LIST_DEFINED	include/stdarg.h	114;"	d
+_VA_LIST_T_H	include/stdarg.h	117;"	d
+_X	include/ctype.h	15;"	d
+__BEEP_H	include/beep.h	2;"	d
+__GNUC_VA_LIST	include/stdarg.h	39;"	d
+__LED_H	include/led.h	2;"	d
+__REG	include/s5pc100.h	11;"	d
+__S5PC100_H__	include/s5pc100.h	9;"	d
+__VA_LIST	include/stdarg.h	84;"	d
+__gnuc_va_list	include/stdarg.h	/^typedef __builtin_va_list __gnuc_va_list;$/;"	t
+__ismask	include/ctype.h	45;"	d
+__need___va_list	include/stdarg.h	34;"	d
+__tolower	include/ctype.h	/^static inline unsigned char __tolower(unsigned char c)$/;"	f
+__toupper	include/ctype.h	/^static inline unsigned char __toupper(unsigned char c)$/;"	f
+__va_copy	include/stdarg.h	53;"	d
+__va_list__	include/stdarg.h	120;"	d
+_ctype	include/ctype.h	/^unsigned char _ctype[] = {$/;"	v
+_start	arch/start.s	/^_start:$/;"	l
+adc	include/s5pc100.h	/^}adc;$/;"	t
+adc_conver	drivers/adc.c	/^unsigned int adc_conver (int channel)$/;"	f
+addr	include/i2c.h	/^	unsigned short addr;$/;"	m	struct:i2c_msg
+asm_do_irq	drivers/irq.c	/^void asm_do_irq(void)$/;"	f
+asm_enable_irq	drivers/irq.c	/^void asm_enable_irq(unsigned int irqnumber)$/;"	f
+beep_init	drivers/beep.c	/^void beep_init (unsigned int fre)$/;"	f
+beep_off	drivers/beep.c	/^void beep_off (void)$/;"	f
+beep_on	drivers/beep.c	/^void beep_on (void)$/;"	f
+bss_loop	arch/start.s	/^bss_loop:$/;"	l
+buf	include/i2c.h	/^	char *buf;$/;"	m	struct:i2c_msg
+clear_bss	arch/start.s	/^clear_bss:$/;"	l
+clk_div	include/s5pc100.h	/^}clk_div;$/;"	t
+clk_gate_d0	include/s5pc100.h	/^}clk_gate_d0;$/;"	t
+clk_gate_d1	include/s5pc100.h	/^}clk_gate_d1;$/;"	t
+clk_gate_sclk	include/s5pc100.h	/^}clk_gate_sclk;$/;"	t
+clk_src	include/s5pc100.h	/^}clk_src;$/;"	t
+curbit	arch/_udivsi3.S	/^curbit		.req	r3$/;"	l
+curbit	arch/_umodsi3.S	/^curbit		.req	r3$/;"	l
+data	include/rtc.h	/^	unsigned char data;$/;"	m	struct:rtc_set
+dividend	arch/_udivsi3.S	/^dividend	.req	r0$/;"	l
+dividend	arch/_umodsi3.S	/^dividend	.req	r0$/;"	l
+divisor	arch/_udivsi3.S	/^divisor		.req	r1$/;"	l
+divisor	arch/_umodsi3.S	/^divisor		.req	r1$/;"	l
+do_div	lib/printf.c	90;"	d	file:
+do_div	lib/printf.c	97;"	d	file:
+fiq_handler	arch/start.s	/^fiq_handler:$/;"	l
+flags	include/i2c.h	/^	unsigned short flags ;$/;"	m	struct:i2c_msg
+get_rtc	drivers/rtc.c	/^void get_rtc(struct rtc_set *set)$/;"	f
+gpa0	include/s5pc100.h	/^}gpa0;$/;"	t
+gpa1	include/s5pc100.h	/^}gpa1;$/;"	t
+gpb	include/s5pc100.h	/^}gpb;$/;"	t
+gpc	include/s5pc100.h	/^}gpc;$/;"	t
+gpd	include/s5pc100.h	/^}gpd;$/;"	t
+gpe0	include/s5pc100.h	/^}gpe0;$/;"	t
+gpe1	include/s5pc100.h	/^}gpe1;$/;"	t
+gpf0	include/s5pc100.h	/^}gpf0;$/;"	t
+gpf1	include/s5pc100.h	/^}gpf1;$/;"	t
+gpf2	include/s5pc100.h	/^}gpf2;$/;"	t
+gpf3	include/s5pc100.h	/^}gpf3;$/;"	t
+gpg0	include/s5pc100.h	/^}gpg0;$/;"	t
+gpg1	include/s5pc100.h	/^}gpg1;$/;"	t
+gpg2	include/s5pc100.h	/^}gpg2;$/;"	t
+gpg3	include/s5pc100.h	/^}gpg3;$/;"	t
+gph0	include/s5pc100.h	/^}gph0;$/;"	t
+gph1	include/s5pc100.h	/^}gph1;$/;"	t
+gph2	include/s5pc100.h	/^}gph2;$/;"	t
+gph3	include/s5pc100.h	/^}gph3;$/;"	t
+gpi	include/s5pc100.h	/^}gpi;$/;"	t
+gpj0	include/s5pc100.h	/^}gpj0;$/;"	t
+gpj1	include/s5pc100.h	/^}gpj1;$/;"	t
+gpj2	include/s5pc100.h	/^}gpj2;$/;"	t
+gpj3	include/s5pc100.h	/^}gpj3;$/;"	t
+gpj4	include/s5pc100.h	/^}gpj4;$/;"	t
+gpk0	include/s5pc100.h	/^}gpk0;$/;"	t
+gpk1	include/s5pc100.h	/^}gpk1;$/;"	t
+gpk2	include/s5pc100.h	/^}gpk2;$/;"	t
+gpk3	include/s5pc100.h	/^}gpk3;$/;"	t
+gpl0	include/s5pc100.h	/^}gpl0;$/;"	t
+gpl1	include/s5pc100.h	/^}gpl1;$/;"	t
+gpl2	include/s5pc100.h	/^}gpl2;$/;"	t
+gpl3	include/s5pc100.h	/^}gpl3;$/;"	t
+gpl4	include/s5pc100.h	/^}gpl4;$/;"	t
+hour	include/rtc.h	/^	unsigned char hour;$/;"	m	struct:rtc_set
+i2c0	include/s5pc100.h	/^}i2c0;$/;"	t
+i2c1	include/s5pc100.h	/^}i2c1;$/;"	t
+i2c_init	drivers/i2c.c	/^void i2c_init (void)$/;"	f
+i2c_msg	include/i2c.h	/^struct i2c_msg {$/;"	s
+init_key	drivers/key.c	/^void init_key (unsigned int pfunc)$/;"	f
+init_rtc	drivers/rtc.c	/^void init_rtc(struct rtc_set *set)$/;"	f
+init_uart0	drivers/uart0.c	/^void init_uart0(void)$/;"	f
+irq_handler	arch/start.s	/^irq_handler:$/;"	l
+is_digit	lib/printf.c	70;"	d	file:
+isalnum	include/ctype.h	47;"	d
+isalpha	include/ctype.h	48;"	d
+isascii	include/ctype.h	59;"	d
+iscntrl	include/ctype.h	49;"	d
+isdigit	include/ctype.h	50;"	d
+isgraph	include/ctype.h	51;"	d
+islower	include/ctype.h	52;"	d
+isprint	include/ctype.h	53;"	d
+ispunct	include/ctype.h	54;"	d
+isspace	include/ctype.h	55;"	d
+isupper	include/ctype.h	56;"	d
+isxdigit	include/ctype.h	57;"	d
+lcd	include/s5pc100.h	/^}lcd;$/;"	t
+led_init	drivers/led.c	/^void led_init (void)$/;"	f
+led_off	drivers/led.c	/^void led_off(void)$/;"	f
+led_on	drivers/led.c	/^void led_on (void)$/;"	f
+len	include/i2c.h	/^	unsigned int len ;$/;"	m	struct:i2c_msg
+main	main.c	/^int main (void)$/;"	f
+master_recver	drivers/i2c.c	/^void master_recver (unsigned short slaveaddr, char *data, unsigned short len)$/;"	f
+master_transmit	drivers/i2c.c	/^void master_transmit (unsigned short slaveaddr, char *data, unsigned short len)$/;"	f
+master_xfer	drivers/i2c.c	/^void master_xfer (struct i2c_msg *msg)$/;"	f
+mem	include/s5pc100.h	/^}mem;$/;"	t
+memcpy	lib/string.c	/^void memcpy (void *dst, void *src, int len)$/;"	f
+min	include/rtc.h	/^	unsigned char min;$/;"	m	struct:rtc_set
+mon	include/rtc.h	/^	unsigned char mon ;$/;"	m	struct:rtc_set
+my_bzero	lib/string.c	/^void my_bzero (void *s, int len)$/;"	f
+my_strcmp	lib/string.c	/^int my_strcmp (const char *sc, const char *ct)$/;"	f
+nfc	include/s5pc100.h	/^}nfc;$/;"	t
+number	lib/printf.c	/^static char * number(char * str, long long num, unsigned int base, int size, int precision ,int type)$/;"	f	file:
+overdone	arch/_umodsi3.S	/^overdone	.req	r2$/;"	l
+pfunc	drivers/irq.c	/^static void (*pfunc)(void) ;$/;"	v	file:
+pll_con	include/s5pc100.h	/^}pll_con;$/;"	t
+pll_mask	include/s5pc100.h	/^}pll_mask;	$/;"	t
+printf	lib/printf.c	/^void printf (const char *fmt, ...)$/;"	f
+recv_one_byte	drivers/uart0.c	/^unsigned char recv_one_byte (void)$/;"	f
+reset_handler	arch/start.s	/^reset_handler:$/;"	l
+result	arch/_udivsi3.S	/^result		.req	r2$/;"	l
+rtc_set	include/rtc.h	/^struct rtc_set {$/;"	s
+rtcbcd	include/s5pc100.h	/^}rtcbcd;$/;"	t
+rtclam	include/s5pc100.h	/^}rtclam;$/;"	t
+sec	include/rtc.h	/^	unsigned char sec ;$/;"	m	struct:rtc_set
+send_one_byte	drivers/uart0.c	/^void send_one_byte (unsigned char sByte)$/;"	f
+send_string	drivers/uart0.c	/^void send_string (unsigned char *s)$/;"	f
+set_alarm	drivers/rtc.c	/^void set_alarm (struct rtc_set *set)$/;"	f
+set_beep_frequence	drivers/beep.c	/^void set_beep_frequence (unsigned int fre)$/;"	f
+simple_strtol	lib/printf.c	/^long simple_strtol(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoul	lib/printf.c	/^unsigned long simple_strtoul(const char *cp,char **endp,unsigned int base)$/;"	f
+simple_strtoull	lib/printf.c	/^unsigned long long simple_strtoull (const char *cp, char **endp, unsigned int base)$/;"	f
+size_t	lib/printf.c	4;"	d	file:
+skip_atoi	lib/printf.c	/^static int skip_atoi(const char **s)$/;"	f	file:
+spi0	include/s5pc100.h	/^}spi0;$/;"	t
+spi1	include/s5pc100.h	/^}spi1;$/;"	t
+spi2	include/s5pc100.h	/^}spi2;$/;"	t
+sprintf	lib/printf.c	/^int sprintf(char * buf, const char *fmt, ...)$/;"	f
+start_alarm	drivers/rtc.c	/^void start_alarm (unsigned int val, unsigned int pfunc)$/;"	f
+start_timer_tick	drivers/rtc.c	/^void start_timer_tick (unsigned int pfunc)$/;"	f
+stop	arch/start.s	/^stop:$/;"	l
+stop_alarm	drivers/rtc.c	/^void stop_alarm (void)$/;"	f
+stop_timer_tick	drivers/rtc.c	/^void stop_timer_tick (void)$/;"	f
+strnlen	lib/printf.c	/^size_t strnlen(const char * s, size_t count)$/;"	f
+swi_handler	arch/start.s	/^swi_handler:$/;"	l
+timer0_type	include/s5pc100.h	/^}timer0_type;$/;"	t
+timer1_type	include/s5pc100.h	/^}timer1_type;$/;"	t
+timer2_type	include/s5pc100.h	/^}timer2_type;$/;"	t
+timer3_type	include/s5pc100.h	/^}timer3_type;$/;"	t
+timer4_type	include/s5pc100.h	/^}timer4_type;$/;"	t
+timer_type	include/s5pc100.h	/^}timer_type;$/;"	t
+toascii	include/ctype.h	60;"	d
+tolower	include/ctype.h	75;"	d
+toupper	include/ctype.h	76;"	d
+tzic0interrupt	include/s5pc100.h	/^}tzic0interrupt;$/;"	t
+tzic0pcellid	include/s5pc100.h	/^}tzic0pcellid;$/;"	t
+tzic0periphid	include/s5pc100.h	/^}tzic0periphid;$/;"	t
+tzic1interrupt	include/s5pc100.h	/^}tzic1interrupt;$/;"	t
+tzic1pcellid	include/s5pc100.h	/^}tzic1pcellid;$/;"	t
+tzic1periphid	include/s5pc100.h	/^}tzic1periphid;$/;"	t
+tzic2interrupt	include/s5pc100.h	/^}tzic2interrupt;$/;"	t
+tzic2pcellid	include/s5pc100.h	/^}tzic2pcellid;$/;"	t
+tzic2periphid	include/s5pc100.h	/^}tzic2periphid;$/;"	t
+uart0	include/s5pc100.h	/^}uart0;$/;"	t
+uart1	include/s5pc100.h	/^}uart1;$/;"	t
+uart2	include/s5pc100.h	/^}uart2;$/;"	t
+uart3	include/s5pc100.h	/^}uart3;$/;"	t
+va_arg	include/stdarg.h	49;"	d
+va_copy	include/stdarg.h	51;"	d
+va_end	include/stdarg.h	48;"	d
+va_list	include/stdarg.h	/^typedef __gnuc_va_list va_list;$/;"	t
+va_start	include/stdarg.h	47;"	d
+vic0interrupt	include/s5pc100.h	/^}vic0interrupt;$/;"	t
+vic0pcellid	include/s5pc100.h	/^}vic0pcellid;$/;"	t
+vic0periphid	include/s5pc100.h	/^}vic0periphid;$/;"	t
+vic0vectaddr	include/s5pc100.h	/^}vic0vectaddr;$/;"	t
+vic0vectpriority	include/s5pc100.h	/^}vic0vectpriority;$/;"	t
+vic1interrupt	include/s5pc100.h	/^}vic1interrupt;$/;"	t
+vic1pcellid	include/s5pc100.h	/^}vic1pcellid;$/;"	t
+vic1periphid	include/s5pc100.h	/^}vic1periphid;$/;"	t
+vic1vectaddr	include/s5pc100.h	/^}vic1vectaddr;$/;"	t
+vic1vectpriority	include/s5pc100.h	/^}vic1vectpriority;$/;"	t
+vic2interrupt	include/s5pc100.h	/^}vic2interrupt;$/;"	t
+vic2pcellid	include/s5pc100.h	/^}vic2pcellid;$/;"	t
+vic2periphid	include/s5pc100.h	/^}vic2periphid;$/;"	t
+vic2vectaddr	include/s5pc100.h	/^}vic2vectaddr;$/;"	t
+vic2vectpriority	include/s5pc100.h	/^}vic2vectpriority;$/;"	t
+vsprintf	lib/printf.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f
+year	include/rtc.h	/^	unsigned char year ;$/;"	m	struct:rtc_set

@@ -1,0 +1,72 @@
+platform bus 总线驱动实验练习：
+
+1. 编译drv_fuxi 
+	a. 修改 Makefile 指定 KERDIR 到你的ARM板子的内核路径
+	KERDIR=/home/linux/linux-2.6.35-farsight
+	b. 编译 make 
+	c. 将light_driver.ko 拷贝到 /source/rootfs 目录下 
+
+
+2. 添加 platform_device 信息
+	a. arch/arm/mach-s5pc100/mach-smdkc100.c 中添加如下代码
+
+	Struct resource light_resource [] = 
+	{
+	.[0] = {
+		.start = 0xe0300080,
+		.end  = 0xe0300080 + 3,
+		.flags = IORESOURCE_MEM,
+	} ,
+	.[1] = {
+		.start = 0xeA000000,
+		.end  = 0xeA000000 + 11,
+		.flags = IORESOURCE_MEM,
+	} ,
+
+	.[2] = {
+		.start = 0xe0300018,
+		.end  = 0xe0300018 + 7,
+		.flags = IORESOURCE_MEM,
+	} ,
+	}; 
+
+	struct platform_device light_dev = {
+	.name = “light”,
+	.id = -1,
+	.resource = light_resource ,
+	.num_resource = 3,
+	} ;
+
+	(将light_dev信息添加如系统，在系统初始化的时候，由系统自动将light_dev注册进platform总线)
+	在arch/arm/mach-s5pc100/mach-smdkc100  smdkc100_deivces [] = 中添加 &light_dev
+
+	b. 重新编译内核 make zImage
+
+
+3. 使用tftp将新的zImage 下载到板子， 0x20008000 
+   设置uboot 启动参数，
+   setenv bootargs root=nfs nfs.....
+   启动内核
+
+4. insmod 加载 light_driver.ko
+   在终端 mknod /dev/light c 249 0  
+   编写测试程序：
+   #include <stdio.h>
+#include <types.h>
+#include <fcntl.h>
+
+	int main (void)
+	{
+		int fd = open ("/dev/light", O_RDWR) ;	
+		if (fd < 0) {
+
+		} 
+		while (1) {
+			ioctl (fd, LIGHT_ON, 0) ;
+			ioctl (fd, LIGHT_OFF, 0) ;
+		}
+	}
+
+	//蜂鸣器会响， 不响	
+
+

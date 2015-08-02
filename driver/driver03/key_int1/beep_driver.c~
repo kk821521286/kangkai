@@ -1,0 +1,170 @@
+#include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/init.h> //module_init module_exit 
+#include <linux/fs.h>
+#include <linux/kdev_t.h>
+#include <linux/cdev.h>
+#include <asm/uaccess.h>
+#include <linux/errno.h>
+#include <asm/io.h>
+
+void *gpd_base = NULL ;
+
+typedef struct {
+				unsigned int GPDCON;
+				unsigned int GPDDAT;
+				unsigned int GPDPULL;
+				unsigned int GPDDRV;
+				unsigned int GPDPDNCON;
+				unsigned int GPDPDNPULL;
+}gpd;
+#define GPD (* (volatile gpd * )gpd_base ) 
+
+static void *timer_base ;
+typedef struct {
+				unsigned int TCFG0;
+				unsigned int TCFG1;
+				unsigned int TCON;
+}timer_type;
+#define  TIMER  (* (volatile timer_type *)timer_base)
+
+static void *timer1_base ;
+typedef struct {
+
+				unsigned int TCNTB1;
+				unsigned int TCMPB1;
+				unsigned int TCNTO1;
+}timer1_type;
+#define  TIMER1 (* (volatile timer1_type *)timer1_base ) 
+
+
+
+
+void beep_init (void)
+{
+	GPD.GPDCON = (GPD.GPDCON & (~(0xf << 4))) | (2 << 4) ; //读改写
+	TIMER.TCFG0 =  65 ;
+	TIMER.TCFG1 = TIMER.TCFG1 & (~(0xf << 4)) ;
+	TIMER1.TCNTB1 = 10000 ;
+	TIMER1.TCMPB1 = 10000 / 2 ;
+	TIMER.TCON = (1 << 9) ;
+}
+
+void beep_on (void)
+{
+	TIMER.TCON = (1 << 8) | (1 << 11) ;
+}
+
+void beep_off (void)
+{
+	TIMER.TCON = (0) ;
+}
+#define GPG3 (* (volatile gpg3 * )base )
+
+
+static int major = 249 ;
+static int minor = 0 ;
+#define MINOR_NR 4
+
+static void led_on (int num)
+{
+	GPG3.GPG3DAT = GPG3.GPG3DAT |(1 << num) ;
+}
+
+static void led_off (int num)
+{
+	GPG3.GPG3DAT = GPG3.GPG3DAT & ~(1 << num) ;
+}
+
+static void led_config (void) 
+{
+	GPG3.GPG3CON = (GPG3.GPG3CON & ~(0xffff)) | 0X1111;
+}
+
+#define CMD_LED_ON  _IO('k', 0)
+#define CMD_LED_OFF _IO('k', 1)
+static int led_ioctl (struct inode *inode, struct file* filp, unsigned int cmd, unsigned long arg)
+{
+	switch (cmd) {
+	case CMD_LED_ON:
+		led_on (iminor(inode)) ;
+		break ;
+	case CMD_LED_OFF :
+		led_off (iminor(inode));
+		break ;
+	default:
+		return -EINVAL ; //Command id not support
+		break ;
+	}
+
+	return 0;
+}
+
+static int led_open (struct inode*inode, struct file* file) 
+{
+	led_off (iminor (inode));
+	return  0;
+}
+
+static int led_release (struct inode *inode, struct file* file)
+{
+	led_off (iminor (inode)); 
+	return  0;
+}
+
+static struct file_operations led_ops = {
+	.open    = led_open ,
+	.release = led_release ,
+	.ioctl   = led_ioctl ,
+} ;
+
+static struct cdev led_cdev ;
+__init static int led_driver_init (void)
+{
+	int ret ; 
+	dev_t devno = MKDEV (major, minor) ;
+	
+	ret = register_chrdev_region (devno, MINOR_NR, "led_device") ;
+	if (ret) {
+		printk (KERN_ALERT"char device num fail!\r\n") ;
+		goto err ;
+	}
+	
+	cdev_init (&led_cdev, &led_ops) ;
+	ret = cdev_add (&led_cdev, devno, MINOR_NR) ;
+	
+	if (ret) {
+		printk (KERN_ALERT"CDEV ADD ERROR") ;
+		goto err1;
+	}
+
+	timer_base = ioremap (0xEA000000, sizeof (timer_type)) ;
+	timer1_base = ioremap (0xEA000018, sizeof (timer1_type)) ;
+	gpd_base = ioremap (0xE0300080, sizeof (timer1_type)) ;
+
+	printk (KERN_ALERT"LED 4 DEVICE DRIVER INSMOD DONE!\n") ; 
+	return 0 ; 
+err2:
+	cdev_del (&led_cdev) ;
+err1:
+	unregister_chrdev_region (devno, MINOR_NR);
+err:
+	return ret ;
+}
+
+__exit static void led_driver_exit (void) 
+{
+	unregister_chrdev_region (MKDEV(major, minor), MINOR_NR) ;
+	cdev_del (&led_cdev) ;
+	iounmap (base) ;
+	printk(KERN_ALERT"LED 4 DEVICE DRIVER RMMOD DONE\r\n") ;
+}
+
+MODULE_LICENSE ("GPL") ;
+MODULE_AUTHOR("GUO") ;
+MODULE_DESCRIPTION("THIS IS SIMAPLE led MODULE") ;
+//
+module_init (led_driver_init) ;
+module_exit (led_driver_exit) ;
+
+

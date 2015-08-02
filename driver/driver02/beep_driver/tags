@@ -1,0 +1,57 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+CMD_BEEP_FRE	test.c	23;"	d	file:
+CMD_BEEP_OFF	beep_driver.c	71;"	d	file:
+CMD_BEEP_OFF	test.c	22;"	d	file:
+CMD_BEEP_ON	beep_driver.c	70;"	d	file:
+CMD_BEEP_ON	test.c	21;"	d	file:
+CMD_SET_FRE	beep_driver.c	72;"	d	file:
+GPD	beep_driver.c	24;"	d	file:
+GPDCON	beep_driver.c	/^				unsigned int GPDCON;$/;"	m	file:
+GPDDAT	beep_driver.c	/^				unsigned int GPDDAT;$/;"	m	file:
+GPDDRV	beep_driver.c	/^				unsigned int GPDDRV;$/;"	m	file:
+GPDPDNCON	beep_driver.c	/^				unsigned int GPDPDNCON;$/;"	m	file:
+GPDPDNPULL	beep_driver.c	/^				unsigned int GPDPDNPULL;$/;"	m	file:
+GPDPULL	beep_driver.c	/^				unsigned int GPDPULL;$/;"	m	file:
+KERDIR	Makefile	/^KERDIR=\/home\/linux\/linux-2.6.35-farsight\/$/;"	m
+M	Makefile	/^	$(MAKE) -C $(KERDIR) M=$(PWD) modules$/;"	m
+MINOR_NR	beep_driver.c	13;"	d	file:
+PWD	Makefile	/^PWD=$(shell pwd) $/;"	m
+TCFG0	beep_driver.c	/^				unsigned int TCFG0;$/;"	m	file:
+TCFG1	beep_driver.c	/^				unsigned int TCFG1;$/;"	m	file:
+TCMPB1	beep_driver.c	/^				unsigned int TCMPB1;$/;"	m	file:
+TCNTB1	beep_driver.c	/^				unsigned int TCNTB1;$/;"	m	file:
+TCNTO1	beep_driver.c	/^				unsigned int TCNTO1;$/;"	m	file:
+TCON	beep_driver.c	/^				unsigned int TCON;$/;"	m	file:
+TIMER	beep_driver.c	32;"	d	file:
+TIMER1	beep_driver.c	41;"	d	file:
+beep_cdev	beep_driver.c	/^static struct cdev beep_cdev ;$/;"	v	file:
+beep_driver_exit	beep_driver.c	/^__exit static void beep_driver_exit (void) $/;"	f	file:
+beep_driver_exit	beep_driver.c	/^module_exit (beep_driver_exit) ;$/;"	v
+beep_driver_init	beep_driver.c	/^__init static int beep_driver_init (void)$/;"	f	file:
+beep_driver_init	beep_driver.c	/^module_init (beep_driver_init) ;$/;"	v
+beep_init	beep_driver.c	/^void beep_init (void)$/;"	f
+beep_ioctl	beep_driver.c	/^static int beep_ioctl (struct inode *inode, struct file* filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+beep_off	beep_driver.c	/^void beep_off (void)$/;"	f
+beep_on	beep_driver.c	/^void beep_on (void)$/;"	f
+beep_open	beep_driver.c	/^static int beep_open (struct inode*inode, struct file* file) $/;"	f	file:
+beep_ops	beep_driver.c	/^static struct file_operations beep_ops = {$/;"	v	file:
+beep_release	beep_driver.c	/^static int beep_release (struct inode *inode, struct file* file)$/;"	f	file:
+gpd	beep_driver.c	/^}gpd;$/;"	t	file:
+gpd_base	beep_driver.c	/^void *gpd_base = NULL ;$/;"	v
+m	Makefile	/^obj-m := beep_driver.o$/;"	m
+main	test.c	/^int main(void) $/;"	f
+major	beep_driver.c	/^static int major = 248 ;$/;"	v	file:
+minor	beep_driver.c	/^static int minor = 0 ;$/;"	v	file:
+pu	test.c	/^unsigned char pu[]={$/;"	v
+set_fre	beep_driver.c	/^void set_fre (int fre) $/;"	f
+time	test.c	/^unsigned char time[] ={$/;"	v
+timer1_base	beep_driver.c	/^static void *timer1_base ;$/;"	v	file:
+timer1_type	beep_driver.c	/^}timer1_type;$/;"	t	file:
+timer_base	beep_driver.c	/^static void *timer_base ;$/;"	v	file:
+timer_type	beep_driver.c	/^}timer_type;$/;"	t	file:
+yindiao	test.c	/^unsigned int yindiao [3][7] = {$/;"	v

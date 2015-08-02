@@ -1,0 +1,43 @@
+I2C驱动 
+	I2C 本质上是一个总线通信协议
+	两根线：SDA SCL
+
+	       传数据  传时钟
+
+	同步串行数据协议   半双工
+	
+	同步串行速率  100Kbps  400Kbps 3.4Mbps
+	
+	每一次都是由主机发起，且时钟按主机时钟为准  。 
+
+	每一个从机都会有一个地址 ，一种叫7位地址模型，
+	一种叫10 位地址模型 。 
+	
+	SCL拉高电平后，可以去读总线上的数据 。
+	低电平时，I2C控制器将数据放到总线上。 
+
+	传输最小单位： 1byte
+	
+	仲裁 ：解决通信冲突 
+
+	默认情况下，两根总线都是高电平   
+	
+解决寻址问题
+	
+
+I2C_adapter 
+	struct i2c_adapter {
+		char name[48]; 
+		int retries; //重试次数 
+		int nt;  //序号
+		const struct i2c_algorithm *algo; 
+	}
+	
+	struct i2c_algorithm {
+		int (*master_xfer)(struct i2c_adapter *adap,
+			struct i2c_msg *msgs,int num);
+		
+			
+	}
+	
+	

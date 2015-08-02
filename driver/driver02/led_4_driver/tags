@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+CMD_LED_OFF	hello_driver.c	44;"	d	file:
+CMD_LED_OFF	led_4_driver.c	43;"	d	file:
+CMD_LED_OFF	test.c	10;"	d	file:
+CMD_LED_ON	hello_driver.c	43;"	d	file:
+CMD_LED_ON	led_4_driver.c	42;"	d	file:
+CMD_LED_ON	test.c	9;"	d	file:
+GPG3	hello_driver.c	21;"	d	file:
+GPG3	led_4_driver.c	21;"	d	file:
+GPG3CON	hello_driver.c	/^	unsigned int GPG3CON;$/;"	m	file:
+GPG3CON	led_4_driver.c	/^	unsigned int GPG3CON;$/;"	m	file:
+GPG3DAT	hello_driver.c	/^	unsigned int GPG3DAT;$/;"	m	file:
+GPG3DAT	led_4_driver.c	/^	unsigned int GPG3DAT;$/;"	m	file:
+GPG3DRV	hello_driver.c	/^	unsigned int GPG3DRV;$/;"	m	file:
+GPG3DRV	led_4_driver.c	/^	unsigned int GPG3DRV;$/;"	m	file:
+GPG3PDNCON	hello_driver.c	/^	unsigned int GPG3PDNCON;$/;"	m	file:
+GPG3PDNCON	led_4_driver.c	/^	unsigned int GPG3PDNCON;$/;"	m	file:
+GPG3PDNPULL	hello_driver.c	/^	unsigned int GPG3PDNPULL;$/;"	m	file:
+GPG3PDNPULL	led_4_driver.c	/^	unsigned int GPG3PDNPULL;$/;"	m	file:
+GPG3PULL	hello_driver.c	/^	unsigned int GPG3PULL;$/;"	m	file:
+GPG3PULL	led_4_driver.c	/^	unsigned int GPG3PULL;$/;"	m	file:
+KERDIR	Makefile	/^KERDIR=\/home\/kangkai\/linux\/linux-2.6.35-farsight\/$/;"	m
+M	Makefile	/^	$(MAKE) -C $(KERDIR) M=$(PWD) modules$/;"	m
+MINOR_NR	hello_driver.c	26;"	d	file:
+MINOR_NR	led_4_driver.c	25;"	d	file:
+PWD	Makefile	/^PWD=$(shell pwd) $/;"	m
+__this_module	led_4_driver.mod.c	/^struct module __this_module$/;"	v
+__used	led_4_driver.mod.c	/^__used$/;"	v	file:
+base	hello_driver.c	/^void *base = NULL ;$/;"	v
+base	led_4_driver.c	/^void *base = NULL ;$/;"	v
+gpg3	hello_driver.c	/^}gpg3;$/;"	t	file:
+gpg3	led_4_driver.c	/^}gpg3;$/;"	t	file:
+hello_cdev	hello_driver.c	/^static struct cdev hello_cdev ;$/;"	v	file:
+hello_driver_exit	hello_driver.c	/^__exit static void hello_driver_exit (void) $/;"	f	file:
+hello_driver_exit	hello_driver.c	/^module_exit (hello_driver_exit) ;$/;"	v
+hello_driver_init	hello_driver.c	/^__init static int hello_driver_init (void)$/;"	f	file:
+hello_driver_init	hello_driver.c	/^module_init (hello_driver_init) ;$/;"	v
+hello_open	hello_driver.c	/^static int hello_open (struct inode*inode, struct file* file) $/;"	f	file:
+hello_ops	hello_driver.c	/^static struct file_operations hello_ops = {$/;"	v	file:
+hello_release	hello_driver.c	/^static int hello_release (struct inode *inode, struct file* file)$/;"	f	file:
+led_cdev	led_4_driver.c	/^static struct cdev led_cdev ;$/;"	v	file:
+led_config	hello_driver.c	/^static void led_config (void) $/;"	f	file:
+led_config	led_4_driver.c	/^static void led_config (void) $/;"	f	file:
+led_driver_exit	led_4_driver.c	/^__exit static void led_driver_exit (void) $/;"	f	file:
+led_driver_exit	led_4_driver.c	/^module_exit (led_driver_exit) ;$/;"	v
+led_driver_init	led_4_driver.c	/^__init static int led_driver_init (void)$/;"	f	file:
+led_driver_init	led_4_driver.c	/^module_init (led_driver_init) ;$/;"	v
+led_ioctl	hello_driver.c	/^static int led_ioctl (struct inode *inode, struct file* filp, unsigned int cmd, long arg)$/;"	f	file:
+led_ioctl	led_4_driver.c	/^static int led_ioctl (struct inode *inode, struct file* filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+led_off	hello_driver.c	/^static void led_off (void)$/;"	f	file:
+led_off	led_4_driver.c	/^static void led_off (int num)$/;"	f	file:
+led_on	hello_driver.c	/^static void led_on (void )$/;"	f	file:
+led_on	led_4_driver.c	/^static void led_on (int num)$/;"	f	file:
+led_open	led_4_driver.c	/^static int led_open (struct inode*inode, struct file* file) $/;"	f	file:
+led_ops	led_4_driver.c	/^static struct file_operations led_ops = {$/;"	v	file:
+led_release	led_4_driver.c	/^static int led_release (struct inode *inode, struct file* file)$/;"	f	file:
+m	Makefile	/^obj-m := led_4_driver.o$/;"	m
+main	test.c	/^int main(void) $/;"	f
+major	hello_driver.c	/^static int major = 249 ;$/;"	v	file:
+major	led_4_driver.c	/^static int major = 249 ;$/;"	v	file:
+minor	hello_driver.c	/^static int minor = 0 ;$/;"	v	file:
+minor	led_4_driver.c	/^static int minor = 0 ;$/;"	v	file:

@@ -1,0 +1,28 @@
+IO阻塞与非阻塞
+
+  linux系统下，默认为阻塞模型 eg:read(); recv(); getchar();
+  
+  flags = fcntl(0,F_GETFL,0);
+  flags |= O_NONBLOCK;
+  fcntl (0,F_SETFL,flags);
+
+进程的状态：运行态、就绪态、睡眠态（可中断，不可中断）
+
+	运行态链表（就绪）
+	
+	睡眠：就是将运行态链表中的进程移除
+
+	唤醒：就是将进程挂载到运行态链表中
+
+struct task_struct{};
+
+	schedule();调度器，核心调度算法
+
+每一个进程有一个struct task_struct{};
+
+手工睡眠：
+	get_current()->state = TASK_INTERRUPTIBLE;
+	schedule();
+
+
+

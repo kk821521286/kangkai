@@ -1,0 +1,162 @@
+A/D转换  （模数转换）
+	
+	数值精度：10bit 0-1023范围
+	参数：量程 
+	VREF 参考电压  3.3v 5v 10v
+	ADIN 电压范围与精度范围是线性关系 
+	转换速率： SPS(转换次数) bps
+	时钟 ：与转换速率匹配  
+	
+
+驱动实现
+	register_chadev_register();
+	cdev_init(void);
+	cdev_add();     
+
+
+	file_operations ops {
+	.read = adc_read,
+	}
+	adc_read() {
+	 //AD硬件，触发一次转化
+	//睡眠，等待队列 
+	//读AD的值 （被唤醒后）
+	//返回给用户空间copy_to_user();		
+	}
+	
+	adc_irq()
+	{
+	  //读AD值 
+	  //唤醒
+	}	
+
+	unregister_chrdev_region();
+	cdev_del(); 
+
+复习到的知识：
+	中断，等待队列，A/D转换
+
+      	adc_init(void)
+	{
+		//设置通道和转换速率 
+		//转换模式
+		//启动转换
+		
+		adc = ADC.DATA0;
+		while(ADC.ADCON & (1 << 15));
+	}
+
+
+
+
+	锁相环：倍频
+	mups :
+
+启动ADC采集（2种方式）
+	1.读转换方式（不适合低速AD）
+	2.AD转换速率较低，手工转换
+	CON_START = 1；
+	中断方式：
+	
+	
+
+ ADC --->MASK（可选） ---> VIC控制器 （管理中断）[ENABLE控制位]---> cpsr I位使能
+
+ARM核心实现 四大步：
+1.进入对应的模式
+2.保存CPSR->SPSR_IRQ
+3.保存之前的返回地址 LR_irq
+4.跳转到异常向量表对应的位置
+
+中断向量表
+reset 
+undef 
+svc 
+prefh 
+data_abort 
+not use 
+irq 
+frq
+
+三个主中断寄存器
+VIC0ADDRESS
+
+VIC1ADDRESS
+
+VIC2ADDRESS 
+ 
+中断处理函数 	
+asm_do_irq()
+{
+  void (*pfunc)(void);
+  pfunc = VIC0ADDRESS;
+  pfunc(); //执行adc_irq_handler()函数 
+}
+
+adc_irq_handler()
+{
+	//读AD值
+	//清除中断标志位
+}
+
+int (*pfunc)(int);  //此时的pfunc是一个变量名
+
+typedef int (*pfunc)(int); //此时的pfunc是一个数据类型
+
+
+linux驱动
+使能与屏蔽中断函数 
+	enable_irq(irq中断号);
+	disable_irq();
+	disable_nosync();
+
+
+request_irq(32 + 87,irq_handler,irqf_disable,"adc_irq",null);
+free_irq(32 + 87,NULL);
+
+等待队列函数：
+	wait_queue_head_t wait_adc_head; 
+	wait_event ();
+	wait_event_timeout();
+	wait_event_interruptible();
+	wait_event_interruptible_timeout(); 
+
+	wake_up();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	 
+		

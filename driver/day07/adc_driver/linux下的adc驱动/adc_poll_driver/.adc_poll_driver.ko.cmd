@@ -1,0 +1,1 @@
+cmd_/home/linux/adc_driver/adc_poll_driver/adc_poll_driver.ko := arm-cortex_a8-linux-gnueabi-ld -EL -r  -T /home/linux/linux-2.6.35-farsight/scripts/module-common.lds --build-id -o /home/linux/adc_driver/adc_poll_driver/adc_poll_driver.ko /home/linux/adc_driver/adc_poll_driver/adc_poll_driver.o /home/linux/adc_driver/adc_poll_driver/adc_poll_driver.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/linux/adc_driver/adc_int_platform/adc_int_platform.ko := arm-cortex_a8-linux-gnueabi-ld -EL -r  -T /home/linux/linux-2.6.35-farsight/scripts/module-common.lds --build-id -o /home/linux/adc_driver/adc_int_platform/adc_int_platform.ko /home/linux/adc_driver/adc_int_platform/adc_int_platform.o /home/linux/adc_driver/adc_int_platform/adc_int_platform.mod.o

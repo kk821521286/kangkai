@@ -1,0 +1,1 @@
+cmd_/home/qin/xian14081/03-day/fasync/fasync.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.11.0-26-generic/scripts/module-common.lds --build-id  -o /home/qin/xian14081/03-day/fasync/fasync.ko /home/qin/xian14081/03-day/fasync/fasync.o /home/qin/xian14081/03-day/fasync/fasync.mod.o

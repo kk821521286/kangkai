@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+i2c_new_device_exit	i2c_new_dev.c	/^__exit void i2c_new_device_exit (void)$/;"	f
+i2c_new_device_exit	i2c_new_dev.c	/^module_exit (i2c_new_device_exit);$/;"	v
+i2c_new_device_init	i2c_new_dev.c	/^__init int i2c_new_device_init (void)$/;"	f
+i2c_new_device_init	i2c_new_dev.c	/^module_init (i2c_new_device_init);$/;"	v
+i2c_new_driver_exit	i2c_new_drv.c	/^__exit void i2c_new_driver_exit (void)$/;"	f
+i2c_new_driver_exit	i2c_new_drv.c	/^module_exit (i2c_new_driver_exit);$/;"	v
+i2c_new_driver_init	i2c_new_drv.c	/^__init int i2c_new_driver_init (void)$/;"	f
+i2c_new_driver_init	i2c_new_drv.c	/^module_init (i2c_new_driver_init);$/;"	v
+i2c_new_info	i2c_new_dev.c	/^static struct i2c_board_info i2c_new_info = {$/;"	v	file:
+lm75_cdev	i2c_new_drv.c	/^static struct cdev lm75_cdev;$/;"	v	file:
+lm75_ops	i2c_new_drv.c	/^static struct file_operations lm75_ops = {$/;"	v	file:
+lm75_read	i2c_new_drv.c	/^static ssize_t lm75_read (struct file* file, char *buf, size_t len, loff_t *fpos)$/;"	f	file:
+major	i2c_new_drv.c	/^static int major = 249, minor = 0;$/;"	v	file:
+minor	i2c_new_drv.c	/^static int major = 249, minor = 0;$/;"	v	file:
+new_client	i2c_new_dev.c	/^static struct i2c_client *new_client ;$/;"	v	file:
+new_client	i2c_new_drv.c	/^static struct i2c_client *new_client ;$/;"	v	file:
+new_device_id	i2c_new_drv.c	/^static struct i2c_device_id new_device_id = {$/;"	v	file:
+new_driver	i2c_new_drv.c	/^static struct i2c_driver new_driver = {$/;"	v	file:
+new_probe	i2c_new_drv.c	/^int new_probe (struct i2c_client *client, const struct i2c_device_id *new_id)$/;"	f
+new_remove	i2c_new_drv.c	/^int new_remove (struct i2c_client *client)$/;"	f

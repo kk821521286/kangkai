@@ -1,0 +1,167 @@
+【0】IO模型
+（1）阻塞
+（2）非阻塞
+（3）IO多路复用 （监测多路IO）
+（4）信号异步通知 
+
+
+【1】阻塞模型
+（1）linux默认的IO模型，操作请求，
+			有资源，带着资源返回，
+			没有资源，阻塞等待，直到资源就位，被内核唤醒带着资源返回。
+
+     阻塞模型优缺点：系统开销小，效率比较低，容易造成睡死。
+
+（2）应用层阻塞操作
+    阻塞地读取串口一个字符	     
+    char buf;
+    fd = open("/dev/ttyS1", O_RDWR); 
+    ...
+    res = read(fd,&buf,1); //当串口上有输入时才返回
+    if(res==1)
+         printf("%c\n", buf);
+
+（3）驱动的阻塞实现
+
+     阻塞实现实质是睡眠机制:简单睡眠和手动睡眠。
+     简单睡眠时手动睡眠的特例，内核讲手动睡眠封装成不同的函数，就是简单睡眠。
+     睡眠的实质：让当前进程放弃cpu，同时不让系统分配时间
+
+（4）简单睡眠的实现流程
+     1--定义等待队列头（linux 用等待队列头来管理一个等待队列）
+	wait_queue_head_t  my_queue;
+
+     2--初始化“等待队列头”（不初始化和初始化多次都是oops，放在加载函数中，不能放在open中）
+	init_waitqueue_head(&my_queue);
+
+     3--等待事件（读写函数）
+	wait_event(queue, condition)     len >0
+	a) 睡前  ：condition 为真 -- 不睡
+                   condition 为假 -- 睡
+        b) 醒后  : condition  为真  --- 不睡，醒
+                   condition  为假  -- 继续睡（没有条件，创造条件也要睡）
+
+  	惊群效应：condition 为真时，唤醒的是这个资源对应的等待队列上的所有的等待进程。
+		  互斥机制来处理竞争问题。
+    4--唤醒队列
+	void wake_up(queue2);
+【2】非阻塞模型
+（1）非阻塞的操作：有资源，带着资源返回
+	           没有资源，出错返回
+     非阻塞的优缺点：效率高，系统开销大
+
+（2）应用层实现非阻塞IO
+	非阻塞地读取串口一个字符
+	char buf;
+	fd = open("/dev/ttyS1", O_RDWR| O_NONBLOCK); 
+	...
+	while(read(fd,&buf,1)!=1); //串口上无输入也返回，所以要循环尝试读取串口
+	printf("%c\n", buf);
+
+（3）驱动层实现非阻塞IO
+	判断 file->f_flags 标志位是否被置为，置位说明是非阻塞，如果没有资源，直接返回错误码。
+
+【3】调试：
+	cat  open + read + printf（tty） 循环读
+	echo  字符串  >  设备文件     open + write + close 写一次 
+ 
+
+【4】IO多路复用
+    
+（1）使用select，
+
+ int select(int nfds, fd_set *readfds, fd_set *writefds,
+                  fd_set *exceptfds, struct timeval *timeout)
+
+参数：
+   nfds ：最大fd+1
+   fd_set *readfds, 读组
+   fd_set *writefds,写组
+   fd_set *exceptfds,  通知组
+    struct timeval *timeout ： 0  ---select 非阻塞
+                               NULL ---select 阻塞
+                               特定值---- select 定时
+
+返回值：返回能过操作的文件描述符个数，返回能够操作的组。
+  
+执行：设置的组里fd，有1个以上能够操作，直接返回
+      设置的组里fd，一个都不能操作，睡眠，直到fd有一个以上能操作，：返回能过操作的文件描述符个数，返回能够操作的组。
+
+（2）驱动实现 （select函数最终会调用.poll）
+   1--定义.poll类型的函数
+    unsigned  int (*poll) (struct file *, poll_table *)
+    {
+      解决两件事：a- fd是否可以操作
+                  b--把fd可以操作的类型返回给应用层
+ 
+      流程：（1）使用poll_wait，建立当前进程和等待队里的联系
+            （2）返回能操作的类型   
+		POLLIN，POLLOUT，POLLRDNORM，POLLERR
+    }
+
+   2--定义好的函数赋值给.poll
+
+【5】信号异步通知模型
+（1）是被动的IO操作，应用程序不去主动的请求操作，而是当资源可操作时，内核通过信号，通知应用程序。
+     效率的最高的。 
+     信号 ：29 SIGIO
+
+（2） 应用程序中
+     1--定义信号处理函数
+     2--用signal把处理函数和29信号绑定
+     3--指定当前进程为设备文件的属主
+	fcntl
+         int fcntl(int fd, int cmd, ... /* arg */ );
+	fd：文件描述符
+        cmd： 命令
+        ...:可变参数，可以传参数
+
+        fcntl(fd,F_SETTOWN,getpid());
+     4--设置IO为异步通知模型
+        读 unsigned int  oflags = fcntl（fd，F_GETFL）;
+        改和写  fcntl(fd, F_SETFL, oflags | FASYNC);
+
+
+（3）驱动程序中 （同过.fasync）
+     1--实现和.fasync 同类型的函数
+        int hello_fasync(int fd, struct file *filp,int on )
+ 	{
+		return fasync_helper(fd,filp,on,&dev->async_queue);
+              //会先查询file->f_flags 中的 FASYNC，
+	        如果为1 ，on = 1 ，在队列中添加节点
+                如果为0， on = 0， 在队列中删除节点
+ 
+        }
+
+     2--合适的位置发送信号
+        kill_fasync()函数激发相应的信号。
+
+     3--卸载函数中，在队列中去掉节点
+	fasync_helper(-1,filp,0,&dev->async_queue); 
+ 
+     2--把定义好的函数给.fasync 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

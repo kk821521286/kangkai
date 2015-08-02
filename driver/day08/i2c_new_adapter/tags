@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5	//
+KERNEL	Makefile	/^KERNEL=\/lib\/modules\/$(shell uname -r)\/build\/$/;"	m
+M	Makefile	/^	$(MAKE) -C $(KERNEL) M=$(PWD) modules$/;"	m
+PWD	Makefile	/^PWD=$(shell pwd) $/;"	m
+__this_module	i2c_new_virtual_adapter.mod.c	/^struct module __this_module$/;"	v
+__used	i2c_new_virtual_adapter.mod.c	/^__used$/;"	v	file:
+functionality	i2c_new_virtual_adapter.c	/^u32 functionality (struct i2c_adapter *adap)$/;"	f
+i2c_msgss	i2c_app.c	/^struct i2c_msgss {$/;"	s	file:
+i2c_new_adapter_exit	i2c_new_virtual_adapter.c	/^__exit void i2c_new_adapter_exit (void)$/;"	f
+i2c_new_adapter_exit	i2c_new_virtual_adapter.c	/^module_exit (i2c_new_adapter_exit);$/;"	v
+i2c_new_adapter_init	i2c_new_virtual_adapter.c	/^__init int i2c_new_adapter_init (void)$/;"	f
+i2c_new_adapter_init	i2c_new_virtual_adapter.c	/^module_init (i2c_new_adapter_init);$/;"	v
+m	Makefile	/^obj-m := i2c_new_virtual_adapter.o$/;"	m
+main	i2c_app.c	/^int main(void)$/;"	f
+msg	i2c_app.c	/^struct i2c_msg msg = {$/;"	v
+msgs	i2c_app.c	/^	struct i2c_msg *msgs;$/;"	m	struct:i2c_msgss	file:
+new_adapter0	i2c_new_virtual_adapter.c	/^static struct i2c_adapter new_adapter0 = {$/;"	v	file:
+new_algo	i2c_new_virtual_adapter.c	/^static struct i2c_algorithm new_algo = {$/;"	v	file:
+num	i2c_app.c	/^	int num;$/;"	m	struct:i2c_msgss	file:
+point	i2c_app.c	/^unsigned char point ;$/;"	v
+s5pc100_master_xfer	i2c_new_virtual_adapter.c	/^int s5pc100_master_xfer(struct i2c_adapter *adap, struct i2c_msg *msgs,int num)$/;"	f
+ss	i2c_app.c	/^struct i2c_msgss ss;$/;"	v
