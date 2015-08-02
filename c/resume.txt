@@ -1,0 +1,40 @@
+Kevin R. Lange
+klange@toaruos.org
+1045 Mission St, Apt 440
+San Francisco, CA 94103
+
+Education
+
+BS Computer Science at University of Illinois at Urbana-Champaign - Urbana, IL
+August 25, 2009 to May 10, 2012
+- Minor in International Studies in Engineering, Japan
+- Focused on systems software courses
+
+Study Abroad at Hiroshima Institute of Technology - Hiroshima, Japan
+May 25, 2010 to July 05, 2010
+- Cultural exchange program
+
+Employment
+
+Software Engineer, i18n at Yelp, Inc. - San Francisco, CA
+June 18, 2012 to now
+- Developed several internal tools and libraries
+- Provided critical input and design work for Yelp's launch in Japan
+
+Software Engineering Intern at Apple Inc. - Cupertino, CA
+June 01, 2011 to August 30, 2011
+- Built software framework for testing and verification of desktop retina display modes
+- Assisted other interns with Unix fundamentals
+
+Projects
+
+Lead at ToAruOS - https://github.com/klange/toaruos
+January 15, 2011 to now
+- Hobby x86 Unix-like kernel and userspace
+- Advanced in-house GUI with compositing window manager
+
+Developer at Compiz Window Manager - http://compiz.org
+January 27, 2008 to January 24, 2010
+- Minor plugin contributor
+- Various research projects
+
